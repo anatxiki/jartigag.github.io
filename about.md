@@ -10,16 +10,20 @@ layout: page
 
 <h2>Skills</h2>
 
-**Languages**
+**Languages**  
+
 :    Java, Python
 
-**Tools**
+**Tools**  
+
 :    Git, Matlab, AndroidStudio
 
-**Web**
+**Web**  
+
 :    HTML, CSS, JavaScript, Jekyll, Bootstrap
 
-**Others**
+**Others**  
+
 :    GNU/Linux, LaTeX, Markdown, Pandoc, RaspberryPi
 
 <h2>Projects</h2>
