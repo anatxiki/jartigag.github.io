@@ -8,7 +8,7 @@ tag:
 - android
 ---
 
-## Índice:
+## /índice:
 
 - [Gradle](#gradle)
 - [SharedPreferences](#sharedpreferences)
