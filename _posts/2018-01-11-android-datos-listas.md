@@ -1,5 +1,5 @@
 ---
-title:  "android: siguiente paso"
+title:  "android: almacenar datos, representar listas"
 layout: post
 date:   2018-01-11
 category: blog
