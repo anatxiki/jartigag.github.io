@@ -71,7 +71,7 @@ List<MyObject> objectsList = objectDao.queryBuilder().orderDesc(ObjectDao.Proper
 
 ## GreenDAO
 
-Instalar y configurar la librería: http://greenrobot.org/greendao/documentation/introduction
+Instalar y configurar la librería: [http://greenrobot.org/greendao/documentation/introduction](http://greenrobot.org/greendao/documentation/introduction)
 
 En build.gradle que está en la carpeta raíz del proyecto:
 1. Añadir repositorio ``mavenCentral()``
@@ -81,7 +81,7 @@ En el build.gradle de la app:
 1. Al inicio del fichero: ``apply plugin: 'org.greenrobot.greendao'``
 2. Añadir ``compile 'org.greenrobot:greendao:3.2.2'``
 
-Creamos al menos un modelo: http://greenrobot.org/greendao/documentation/modelling-entities/  
+Creamos al menos un modelo: [http://greenrobot.org/greendao/documentation/modelling-entities](http://greenrobot.org/greendao/documentation/modelling-entities)
 Primero definimos la versión del *schema*, en el build.gradle de la app, añadimos:
 ```
 greendao {
