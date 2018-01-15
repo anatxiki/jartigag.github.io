@@ -29,6 +29,6 @@ layout: page
 <h2>Projects</h2>
 
 * [an android app](#)
-* [a social media tool](#)
+* [some social media scripts](#)
 * [an osint tool](#)
 * [a dataviz tool](#)
