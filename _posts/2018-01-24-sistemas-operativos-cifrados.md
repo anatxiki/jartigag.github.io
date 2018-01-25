@@ -42,5 +42,5 @@ Así pude empezar el proceso de cifrado con Bitlocker. Se requerirá una **clave
 
 ## Dual Boot
 
-Primero instalé Windows 10 Pro, dejando espacio suficiente en el disco duro para instalar Debian 9 luego. Así, Debian se encargará de instalar **Grub** automáticamente, que **gestionará el arranque del sistema dual**.  
+Primero instalé Windows 10 Pro en **55 GB** (incluyendo aquí las particiones que se crean automáticamente), dejando espacio suficiente en el disco duro para instalar Debian 9 luego. De esta forma, Debian se encargará de instalar **Grub** automáticamente, que **gestionará el arranque del sistema dual**.  
 Para configurar Grub sólo hay que editar el archivo `/etc/default/grub`. 
