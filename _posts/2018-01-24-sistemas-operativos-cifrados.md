@@ -35,12 +35,10 @@ He usado esta [**imagen de Debian 9 Stretch**](https://cdimage.debian.org/cdimag
 
 ## Windows 10
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Para encriptar el sistema Windows 10 es necesario disponer de la versión **Windows 10 Pro**. Trae la herramienta **Bitlocker**, que requiere un TPM (Trusted Platform Module) para guardar la clave con la que descifrar el disco. Como mi ordenador no lo tiene, edité la **directiva de grupo** en `Directiva Equipo local > Plantillas administrativas > Componentes de Windows > Cifrado de unidad Bitlocker > Unidades del sistema operativo`. Allí marqué la casilla **Permitir Bitlocker sin un TPM compatible**, dentro de la configuración Requerir autenticación adicional al iniciar.  
+Así pude empezar el proceso de cifrado con Bitlocker. Se requerirá una **clave de inicio** cada vez que arranque. Guardé la **clave de recuperación** en un archivo, dentro de una unidad externa, y reinicié.
+
+![Bitlocker]({{site.baseurl}}/assets/images/posts/bitlocker.png)
 
 ## Dual Boot
 
