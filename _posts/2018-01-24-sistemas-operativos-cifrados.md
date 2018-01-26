@@ -22,7 +22,7 @@ A veces uso distros Live USB para tareas puntuales, por eso mantengo la opción 
 
 ## Debian 9
 
-He usado esta [**imagen de Debian 9 Stretch**](https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/9.3.0-live+nonfree/amd64/iso-hybrid/), en concreto `debian-live-9.3.0-amd64-kde+nonfree.iso`, que incluye _Debian 9 Live con KDE_ y el _firmware no libre_ para evitar problemas a la hora de detectar el hardware (por ejemplo, la tarjeta de red). Me apoyé en [esta guía de PortalLinux](https://portallinux.es/instalar-debian-8-con-particiones-cifradas-con-luks/) durante el proceso de instalación.
+He usado esta [**imagen de Debian 9 Stretch**](https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/9.3.0-live+nonfree/amd64/iso-hybrid/), en concreto `debian-live-9.3.0-amd64-kde+nonfree.iso`, que incluye _Debian 9 Live con KDE_ y el _firmware no libre_ para evitar problemas a la hora de detectar el hardware (por ejemplo, la tarjeta de red, que en mi caso necesitaba el fichero `iwlwifi-7265-17.ucode`). Me apoyé en [esta guía de PortalLinux](https://portallinux.es/instalar-debian-8-con-particiones-cifradas-con-luks/) durante el proceso de instalación.
 
 - En el momento del **particionado** de discos, elegí el **método manual**. Hice una partición de **500 MB sin cifrar** con punto de montaje en **`/boot`**, y los **65 GB** del espacio libre restante para el volumen cifrado.
 - En **Configurar los volúmenes cifrados**, elegí el dispositivo `/dev/sda6` en mi caso y una contraseña de cifrado.
