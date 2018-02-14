@@ -19,7 +19,7 @@ layout: compress
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
 
-    <link rel="stylesheet" media="all" href="styles.min.css">
+    <link rel="stylesheet" media="all" href="{{ site.url }}{{ "/styles.min.css" }}">
     
     <style>
     {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
@@ -44,7 +44,7 @@ layout: compress
         </div>
     </div>
     
-    <script src="share.min.js"></script>
+    <script src="{{ site.url }}{{ "/share.min.js" }}"></script>
 
     {% include icons.html %}
 
