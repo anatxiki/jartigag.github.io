@@ -28,7 +28,6 @@ layout: page
 
 <h2>Projects</h2>
 
+* [a simple network tool in python](https://jartigag.github.io/janitor/)
 * [an android app](#)
 * [some social media scripts](#)
-* [an osint tool](#)
-* [a dataviz tool](#)
