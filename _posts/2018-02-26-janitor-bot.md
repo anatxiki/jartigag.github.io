@@ -1,5 +1,5 @@
 ---
-title:  "janitor"
+title:  "janitor bot"
 layout: post
 date:   2018-02-26
 projects: true
