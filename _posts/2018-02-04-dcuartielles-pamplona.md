@@ -22,6 +22,7 @@ David Cuartielles (centro de la foto):
 - [David Cuartielles](#david-cuartielles)
 - [Plataformas](#plataformas)
 - [Primer Arduino](#primer-arduino)
+- [Proyecto Arduino](#proyecto-arduino)
 
 El pasado miércoles 31 de enero, como clausura de la [Semana de la Electrónica](https://sites.google.com/view/i2tec/semana-de-la-electronica) en la Universidad Pública de Navarra, el co-fundador de Arduino David Cuartielles dio una [conferencia](https://upnatv.unavarra.es/pub/david-cuartielles-arduino) sobre su trabajo con Arduino y su visión del mundo del hardware libre. Este es mi resumen de lo más interesante que allí se trató.
 
