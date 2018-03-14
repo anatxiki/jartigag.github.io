@@ -9,13 +9,11 @@ tag:
 - charlas  
 ---
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/06/Arduino_team_Arduino_Summit_2008.jpg)
-
-David Cuartielles (centro de la foto):
-
-> co-fundador de Arduino (2005),  
-> profesor en Universidad de Malmö, Suecia (2000),  
-> ingeniero de teleco por Universidad de Zaragoza (1998)
+> ![](https://upload.wikimedia.org/wikipedia/commons/0/06/Arduino_team_Arduino_Summit_2008.jpg)  
+> David Cuartielles (centro de la foto):  
+> - co-fundador de Arduino (2005),  
+> - profesor en Universidad de Malmö, Suecia (2000),  
+> - ingeniero de teleco por Universidad de Zaragoza (1998)
 
 ## /índice:
 
