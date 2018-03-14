@@ -19,7 +19,7 @@ Una vez iniciado el programa en cualquier máquina con [Python 3](https://www.py
 
 De esta manera, tenemos un host en la red que está al corriente de **si un dispositivo está en casa**, revisando cada pocos segundos si está conectado al router. Ante una nueva conexión/desconexión de las IPs configuradas, el usuario recibe un mensaje de Telegram (esté o no conectado en ese momento a la red local) informándole del evento.
 
-Además, permite asociar **recordatorios** a cada IP. El objetivo de esta función es recibir un mensaje de Telegram con el texto deseado cuando el dispositivo deseado *llegue a casa*.
+Además, permite asociar **recordatorios** a cada IP. El objetivo de esta función es recibir un mensaje de Telegram con el texto deseado cuando el dispositivo en cuestión *llegue a casa*.
 
 ![](https://raw.githubusercontent.com/jartigag/janitor/master/janitor.png)
 

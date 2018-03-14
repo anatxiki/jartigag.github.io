@@ -37,8 +37,8 @@ Estos componentes son:
 * [Notifications](https://developer.android.com/guide/topics/ui/notifiers/notifications.html)
 
 Las diferentes [versiones de Android](
-https://source.android.com/source/build-numbers.html) (lanzadas bajo distintos codenames) se corresponden con **niveles de API**.
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Android_historical_version_distribution_-_vector.svg/1024px-Android_historical_version_distribution_-_vector.svg.png)](https://commons.wikimedia.org/wiki/File:Android_historical_version_distribution_-_vector.svg)
+https://source.android.com/source/build-numbers.html) (lanzadas bajo distintos codenames) se corresponden con **niveles de API**.  
+[![Versiones de Android](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Android_historical_version_distribution_-_vector.svg/1024px-Android_historical_version_distribution_-_vector.svg.png)](https://commons.wikimedia.org/wiki/File:Android_historical_version_distribution_-_vector.svg)
 
 ## Activity
 
