@@ -44,7 +44,7 @@ optional arguments:
   -t TWEETS, --tweets TWEETS
                         limit the number of tweets to retreive (default=500)
 ```
-<p align="center"><a href="https://asciinema.org/a/QTjDYRC4k4pp0ewyfLQlKTmfD" target="_blank"><img src="https://asciinema.org/a/QTjDYRC4k4pp0ewyfLQlKTmfD.png" width="50%"/></a></p>
+<p align="center"><a href="https://asciinema.org/a/QTjDYRC4k4pp0ewyfLQlKTmfD" target="_blank"><img src="https://asciinema.org/a/QTjDYRC4k4pp0ewyfLQlKTmfD.png"/></a></p>
 
 ## [**`cuchillo.py`**](https://github.com/jartigag/cubiertos-para-twitter/blob/master/cuchillo.py)
 > “Separar la carne del hueso”
@@ -77,7 +77,7 @@ optional arguments:
   -w USERNAME, --add_to_whitelist USERNAME
                         add USERNAME to whitelist
 ```
-<p align="center"><a href="https://asciinema.org/a/IQFOlDY4RMWFdtuHWK4Pz4k7k" target="_blank"><img src="https://asciinema.org/a/IQFOlDY4RMWFdtuHWK4Pz4k7k.png" width="50%"/></a></a></p>
+<p align="center"><a href="https://asciinema.org/a/IQFOlDY4RMWFdtuHWK4Pz4k7k" target="_blank"><img src="https://asciinema.org/a/IQFOlDY4RMWFdtuHWK4Pz4k7k.png"/></a></p>
 
 ## [**`cazo.py`**](https://github.com/jartigag/cubiertos-para-twitter/blob/master/cazo.py)
 > “Servir de la olla al plato”
@@ -106,4 +106,4 @@ optional arguments:
   -u USER, --user USER  target followers of user
 ```
 
-<p align="center"><a href="https://asciinema.org/a/U1UdjaSvK12VPI5OkYmRF8qm7" target="_blank"><img src="https://asciinema.org/a/U1UdjaSvK12VPI5OkYmRF8qm7.png" width="50%"/></a></p>
+<p align="center"><a href="https://asciinema.org/a/U1UdjaSvK12VPI5OkYmRF8qm7" target="_blank"><img src="https://asciinema.org/a/U1UdjaSvK12VPI5OkYmRF8qm7.png"/></a></p>
