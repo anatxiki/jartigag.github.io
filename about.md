@@ -2,21 +2,23 @@
 title: About
 layout: page
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>[under construction] telecom engineer</p>
+enthusiastic about good-practice software development,  
+continuous multidisciplinary learning,  
+collaboration and simple but smart designs.
 
-<p>interests: #music #freesoftware #infosec #osint #dataviz</p>
+also interested in:  
+[#freesoftware](#) [#infosec](#) [#osint](#) [#dataviz](#) [#music](#)
 
 <h2>Skills</h2>
 
 **Languages**  
 
-:    Java, Python
+:    Java, Python, PHP
 
 **Tools**  
 
-:    Git, Matlab, AndroidStudio
+:    Git, AndroidStudio, Eclipse, Matlab
 
 **Web**  
 
@@ -24,10 +26,11 @@ layout: page
 
 **Others**  
 
-:    GNU/Linux, LaTeX, Markdown, Pandoc, RaspberryPi
+:    GNU/Linux, RaspberryPi, Markdown, Pandoc, LaTeX,  
+Networking, Telecommunications, MySQL, Apache
 
 <h2>Projects</h2>
 
-* [a simple network tool in python](https://jartigag.github.io/janitor-bot/)
+* [a simple network tool in python](https://jartigag.github.io/janitor-bot)
+* [some social media scripts](https://jartigag.github.io/cubiertos-para-twitter)
 * [an android app](#)
-* [some social media scripts](#)

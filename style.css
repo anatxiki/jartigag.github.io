@@ -767,6 +767,9 @@ pre {
 .page {
   margin-top: 125px;
 }
+.page > p {
+  text-align: center;
+}
 .page > h1 {
   text-align: center;
   margin-bottom: 6rem;
@@ -775,6 +778,7 @@ pre {
   width: 50%;
   margin: 0 auto;
   display: block;
+
 }
 .post {
   margin-top: 125px;
