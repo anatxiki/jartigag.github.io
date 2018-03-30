@@ -9,7 +9,7 @@ tag:
 - javascript
 ---
 
-> simplemente, escribe sin parar → https://jartigag.github.io/ea
+> simplemente, escribe sin parar → [https://jartigag.github.io/ea](https://jartigag.github.io/ea)
 
 ## /índice:
 - [Qué es](#qué-es)
@@ -32,11 +32,12 @@ Para valorar la *calidad* de la expresión escrita del usuario también se muest
 En caso de introducir una que ya se había empleado, se señala cuál ha sido y se resta -1 punto si aparecía en una frase anterior o -2 puntos si se repite dentro de la misma frase.
 
 ## Diseño web
-Este ha sido mi primer desarrollo web desde cero. Por ello, he procurado complicarme lo menos posible, así que el diseño se basa en **etiquetas `<div>`** con estilos mínimamente retocados y un par de funciones en Javascript puro (**una que calcula las variables** que se muestran bajo el cuadro de texto periódicamente, y **otra que compara lo que se está escribiendo con lo ya escrito** al pulsar <kbd>↵ Enter</kbd>), aparte de las asociadas a cada elemento o botón.
+Este ha sido mi primer desarrollo web desde cero. Por ello, he procurado complicarme lo menos posible, así que el diseño se basa en **etiquetas `<div>`** con estilos mínimamente retocados y un par de funciones en Javascript puro (**una que calcula las variables** que se muestran bajo el cuadro de texto periódicamente, y **otra que compara lo que se está escribiendo con lo ya escrito** al pulsar <kbd>Enter</kbd>), aparte de las asociadas a cada elemento o botón.
 
 Como resultado, me han quedado unas 40 líneas de HTML, 120 de CSS y 200 de Javascript.
 
 En cuanto a usar **Vanilla JavaScript** o con librerías, aquí creo que no tenía sentido cargar ningún frameworks ni historias. Pero sí me parece un debate interesante el que hay en torno a las librerías Javascript. Me gustaría conocer mejor el tema, para entender en qué casos sale "rentable" usar una libería y poder elegirlas con buen criterio.
 
 ## Puesta en marcha
-A lo largo del desarrollo he hecho varias pruebas desde el ordenador y desde el móvil, para comprobar cómo se visualizaba la página en distintas pantallas, detectar fallos y descubrir el resultado de esta aplicación en mí mismo; es decir, *a qué velocidad escribo* y *a qué velocidad pienso*. [¿Te gustaría saber qué tal escribes tú?](https://jartigag.github.io/ea)
+A lo largo del desarrollo he hecho varias pruebas desde el ordenador y desde el móvil, para comprobar cómo se visualizaba la página en distintas pantallas, detectar fallos y descubrir el resultado de esta aplicación en mí mismo; es decir, *a qué velocidad escribo* y *a qué velocidad pienso*.  
+[¿Te gustaría saber qué tal escribes tú?](https://jartigag.github.io/ea)
