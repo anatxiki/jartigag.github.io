@@ -1,0 +1,14 @@
+{
+  "name": "Free Social Sharer",
+  "short_name": "free_social_sharer",
+  "start_url": "https://gitlab.com/d3fc0n4",
+  "display": "standalone",
+  "description": "An easy peasy share page for free social networks.",
+  "version": "1.2.2",
+  "orientation": "landscape",
+  "icons": [{
+    "src": "sharer/assets/img/share.png",
+    "sizes": "32x32",
+    "type": "image/png"
+  }]
+}

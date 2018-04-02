@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A easy peasy share page for free social networks">
+    <meta name="author" content="d3fc0n4">
+    <link rel="shortcut icon" href="/sharer/assets/img/share.png">
+
+    <title>Share on free social networks</title>
+
+	<!-- Styles and other stuff -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="/sharer/assets/css/sharer.css" rel="stylesheet">        
+
+	<link rel="manifest" href="/manifest.webmanifest">		
+	  
+  </head>
+
+  <body>
+  
+  	<main role="main">
+  	
+  		<section class="jumbotron text-center">
+		    <div class="container-fluid">
+		      <h1 class="jumbotron-heading">Thanks for sharing!</h1>
+		      <p class="lead text-muted">There is no future without freedom</p>
+		    </div>
+      	</section>
+    
+	  	<div class="container-fluid">
+		  	<div class="row">
+		  		<div class="col-md-3">
+		  			<div class="card mb-4 box-shadow">
+			  			<div class="card-body">
+					  		<form class="sharer text-center" data-service="Hubzilla" action="" target="_blank" autocomplete="off">
+							  	<img class="mb-4" src="/sharer/assets/img/hubzilla.png" alt="" width="72" height="72">
+							  	<h1 class="h3 mb-3 font-weight-normal">Share on Hubzilla</h1>
+							  	<p>Type your host and check your text, then click the button.</p>
+
+								<div class="form-group">
+							  		<input type="text" class="form-control host" id="hostHubzilla" placeholder="Hubzilla host" required>
+							  	</div>
+							  	<div class="form-group">
+							  		<input type="text" class="form-control url" id="urlHubzilla" placeholder="Shared url">
+							  	</div>
+							  	<div class="form-group">
+							  		<textarea class="form-control text" placeholder="Text" id="textHubzilla"></textarea>
+							  	</div>
+							  	<div class="checkbox text-left">
+							  		<label><input type="checkbox" class="remember" id="rememberHubzilla"> Remember host</label>
+							  	</div>
+							  	
+							  	<button disabled="true" data-site="Hubzilla" class="btn btn-lg btn-primary btn-block send hubzilla">Send</button>		  
+							</form>
+						</div>
+					</div>
+			  	</div>
+		  		<div class="col-md-3">
+		  			<div class="card mb-4 box-shadow">
+			  			<div class="card-body">
+					  		<form class="sharer text-center" data-service="Diaspora" action="" target="_blank" autocomplete="off">
+							  	<img class="mb-4" src="/sharer/assets/img/diaspora.png" alt="" width="72" height="72">
+							  	<h1 class="h3 mb-3 font-weight-normal">Share on Diaspora</h1>
+							  	<p>Type your pod and check your text, then click the button.</p>
+
+								<div class="form-group">
+							  		<input type="text" class="form-control host" id="hostDiaspora" placeholder="Diaspora pod" required>
+							  	</div>
+							  	<div class="form-group">
+							  		<input type="text" class="form-control url" id="urlDiaspora" placeholder="Shared url">
+							  	</div>
+							  	<div class="form-group">
+							  		<textarea class="form-control text" placeholder="Text" id="textDiaspora"></textarea>
+							  	</div>
+							  	<div class="checkbox text-left">
+							  		<label><input type="checkbox" class="remember" id="rememberDiaspora"> Remember pod</label>
+							  	</div>
+							  	
+							  	<button disabled="true" data-site="Diaspora" class="btn btn-lg btn-primary btn-block send diaspora">Send</button>		  
+							</form>
+						</div>
+					</div>
+			  	</div>
+			  	<div class="col-md-3">
+			  		<div class="card mb-4 box-shadow">
+			  			<div class="card-body">
+					  		<form class="sharer text-center" data-service="Gnusocial" action="" target="_blank" autocomplete="off">
+							  	<img class="mb-4" src="/sharer/assets/img/gnusocial.png" alt="" width="72" height="72">
+							  	<h1 class="h3 mb-3 font-weight-normal">Share on GnuSocial</h1>
+							  	<p>Type your instance and check your text, then click the button.</p>
+
+								<div class="form-group">
+							  		<input type="text" class="form-control host" id="hostGnusocial" placeholder="GnuSocial host" required>
+							  	</div>
+							  	<div class="form-group">
+							  		<input type="text" class="form-control url" id="urlGnusocial" disabled="true" placeholder="Shared url">
+							  	</div>
+							  	<div class="form-group">
+							  		<textarea class="form-control text" placeholder="Text" id="textGnusocial"></textarea>
+							  	</div>
+							  	<div class="checkbox text-left">
+							  		<label><input type="checkbox" class="remember" id="rememberGnusocial"> Remember host</label>
+							  	</div>
+							  	
+							  	<button disabled="true" data-site="Gnusocial" class="btn btn-lg btn-primary btn-block send gnusocial">Send</button>		  
+							</form>
+						</div>
+					</div>
+			  	</div>
+			  	<div class="col-md-3">
+			  		<div class="card mb-4 box-shadow">
+			  			<div class="card-body">
+							<form class="sharer text-center" data-service="Mastodon" action="" target="_blank" autocomplete="off">
+							  	<img class="mb-4" src="/sharer/assets/img/mstdn.png" alt="" width="72" height="72">
+							  	<h1 class="h3 mb-3 font-weight-normal">Share on Mastodon</h1>
+							  	<p>Type your instance and check your text, then click the button.</p>
+
+								<div class="form-group">
+							  		<input type="text" class="form-control host" id="hostMastodon" placeholder="Mastodon host" required>
+							  	</div>
+							  	<div class="form-group">
+							  		<input type="text" class="form-control url" id="urlMastodon" placeholder="Shared url">
+							  	</div>
+							  	<div class="form-group">
+							  		<textarea class="form-control text" placeholder="Text" id="textMastodon"></textarea>
+							  	</div>
+							  	<div class="checkbox text-left">
+							  		<label><input type="checkbox" id="rememberMastodon"> Remember host</label>
+							  	</div>
+							  	
+							  	<button disabled="true" data-site="Mastodon" class="btn btn-lg btn-primary btn-block send mastodon">Send</button>		  
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </main>
+    
+    <footer class="footer"> 
+    	<div class="container text-center">
+    	&copy; 2018 &middot; <a href="https://gitlab.com/d3fc0n4/mastodon_share" target="_blank">Gitlab</a> &middot; <a href="/sharer/License.txt" target="_blank">License GNU GPL v3</a> &middot; v.<span id="version"></span>
+    	</div>
+    </footer>
+    
+    <!-- Javascript -->
+    <script
+	  src="https://code.jquery.com/jquery-2.2.4.min.js"
+	  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+	  crossorigin="anonymous"></script>
+	  
+	<script src="/sharer/assets/js/sharer.js"></script>
+	
+  </body>
+</html>
+
