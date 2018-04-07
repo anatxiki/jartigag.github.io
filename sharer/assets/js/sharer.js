@@ -34,18 +34,7 @@ $(document).ready(function() {
 	$('.url').val(decodeURIComponent(varUrl));
 	
 	//get browser database
-	var twitter  = localStorage.getItem('Twitter');
-	var reddit = localStorage.getItem('Reddit');
 	var mastodon  = localStorage.getItem('Mastodon');
-	
-	if(twitter != null) { 
-		$('#hostTwitter').val(twitter);
-		$('.twitter').removeAttr('disabled');
-	}
-	if(reddit != null) { 
-		$('#hostReddit').val(reddit);
-		$('.reddit').removeAttr('disabled');
-	}
 	if(mastodon != null) { 
 		$('#hostMastodon').val(mastodon);
 		$('.mastodon').removeAttr('disabled');
@@ -53,15 +42,8 @@ $(document).ready(function() {
 	
 	$('.host').keyup(function() {
 		var service = $(this).closest("form").attr('data-service');
-		
-		if(service == 'Twitter') {
-			$('.twitter').removeAttr('disabled');	
-		}
 		if(service == 'Mastodon') {	
-			$('.mastodon').removeAttr('disabled');	
-		}
-		if(service == 'Reddit') {	
-			$('.reddit').removeAttr('disabled');	
+			$('.mastodon').removeAttr('disabled');
 		}
 	});
 	
@@ -96,11 +78,11 @@ $(document).ready(function() {
 				action = host+'/intent/tweet?text='+encodeURIComponent(text);
 			}
 			if(service == 'Mastodon') {
-				action = host+'/share?text='+encodeURIComponent(text)+'&url='+encodeURIComponent(url);
+				action = host+'/share?text='+encodeURIComponent(text)+'&url='+encodeURIComponent(varUrl);
 				$('.mastodon').removeAttr('disabled');	
 			}	
 			if(service == 'Reddit') {
-				action = host+'/submit?title='+encodeURIComponent(text)+'&url='+encodeURIComponent(url);
+				action = host+'/submit?title='+encodeURIComponent(text)+'&url='+encodeURIComponent(varUrl);
 				$('.Reddit').removeAttr('disabled');	
 			}	
 	  	}
