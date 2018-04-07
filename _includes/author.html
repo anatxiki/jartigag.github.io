@@ -4,7 +4,7 @@
         <!-- Note: Only use three share links if your site width is set to large -->
         <!-- If site width is set to normal, you may choose any two share links -->
         
-        <!-- comment mastodon button
+        <!-- comment sharer buttons
         <label class="social" title="share this post on mastodon" for="mastodon-share2">
             <svg class="icon">
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-mastodon"></use>
@@ -16,7 +16,6 @@
             <input name="podurl" value="" placeholder="Mastodon URL (mastodon.social)" type="text">
             <button class="share-btn" type="submit" value="mastodon">OK</button>
         </span>
-        -->
         
         <a class="social" href="https://reddit.com/submit?url={{ site.url }}{{ page.url }}&amp;title={{ page.title }}" target="_blank">
             <svg class="icon">
@@ -27,6 +26,11 @@
             <svg class="icon">
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-twitter"></use>
             </svg> <span class="icon-twitter">tweet it!</span> </a>
+        -->
+        
+        <a class="social" href="https://jartigag.github.io/sharer/?text={{ site.url }}{{ page.url }} - &quot;{{ page.title }}&quot; by @{{ site.authors[page.author].twitter }}&amp;url={{ site.url }}{{ page.url }}">
+            [ share it! ]
+        </a>
         
     </div>
     
