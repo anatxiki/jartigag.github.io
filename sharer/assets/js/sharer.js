@@ -78,7 +78,7 @@ $(document).ready(function() {
 				action = host+'/intent/tweet?text='+encodeURIComponent(text);
 			}
 			if(service == 'Mastodon') {
-				action = host+'/share?text='+encodeURIComponent(text)+'&url='+encodeURIComponent(varUrl);
+				action = host+'/share?text='+encodeURIComponent(text);
 				$('.mastodon').removeAttr('disabled');	
 			}	
 			if(service == 'Reddit') {
