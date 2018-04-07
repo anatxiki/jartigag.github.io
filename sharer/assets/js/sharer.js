@@ -93,7 +93,7 @@ $(document).ready(function() {
 			}
 		
 			if(service == 'Twitter') {
-				action = host+'intent/tweet?text='+encodeURIComponent(text);
+				action = host+'/intent/tweet?text='+encodeURIComponent(text);
 			}
 			if(service == 'Mastodon') {
 				action = host+'/share?text='+encodeURIComponent(text)+'&url='+encodeURIComponent(url);
