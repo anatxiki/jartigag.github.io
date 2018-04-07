@@ -34,22 +34,17 @@ $(document).ready(function() {
 	$('.url').val(decodeURIComponent(varUrl));
 	
 	//get browser database
-	var hubzilla  = localStorage.getItem('Hubzilla');
-	var diaspora  = localStorage.getItem('Diaspora');
-	var gnusocial = localStorage.getItem('Gnusocial');
+	var twitter  = localStorage.getItem('Twitter');
+	var reddit = localStorage.getItem('Reddit');
 	var mastodon  = localStorage.getItem('Mastodon');
 	
-	if(hubzilla != null) { 
-		$('#hostHubzilla').val(hubzilla);
-		$('.hubzilla').removeAttr('disabled');
+	if(twitter != null) { 
+		$('#hostTwitter').val(twitter);
+		$('.twitter').removeAttr('disabled');
 	}
-	if(diaspora != null) { 
-		$('#hostDiaspora').val(diaspora);
-		$('.diaspora').removeAttr('disabled');
-	}
-	if(gnusocial != null) { 
-		$('#hostGnusocial').val(gnusocial);
-		$('.gnusocial').removeAttr('disabled');
+	if(reddit != null) { 
+		$('#hostReddit').val(reddit);
+		$('.reddit').removeAttr('disabled');
 	}
 	if(mastodon != null) { 
 		$('#hostMastodon').val(mastodon);
@@ -59,17 +54,14 @@ $(document).ready(function() {
 	$('.host').keyup(function() {
 		var service = $(this).closest("form").attr('data-service');
 		
-		if(service == 'Hubzilla') {
-			$('.hubzilla').removeAttr('disabled');	
-		}
-		if(service == 'Diaspora') {	
-			$('.diaspora').removeAttr('disabled');	
-		}
-		if(service == 'Gnusocial') {	
-			$('.gnusocial').removeAttr('disabled');	
+		if(service == 'Twitter') {
+			$('.twitter').removeAttr('disabled');	
 		}
 		if(service == 'Mastodon') {	
 			$('.mastodon').removeAttr('disabled');	
+		}
+		if(service == 'Reddit') {	
+			$('.reddit').removeAttr('disabled');	
 		}
 	});
 	
@@ -100,22 +92,17 @@ $(document).ready(function() {
 				host = prefix + host;
 			}
 		
-			if(service == 'Hubzilla') {
-				action = host+'/rpost?body='+encodeURIComponent(text)+'&url='+encodeURIComponent(url);	
-				$('.hubzilla').removeAttr('disabled');					
-			}
-			if(service == 'Diaspora') {
-				action = host+'/bookmarklet?url='+encodeURIComponent(url)+'&title='+encodeURIComponent(text)+'&jump=doclose';	
-				$('.diaspora').removeAttr('disabled');	
-			}
-			if(service == 'Gnusocial') {
-				action = host+'/?action=newnotice&status_textarea='+encodeURIComponent(text);
-				$('.gnusocial').removeAttr('disabled');	
+			if(service == 'Twitter') {
+				action = host+'intent/tweet?text='+encodeURIComponent(text);
 			}
 			if(service == 'Mastodon') {
-				action = host+'/share?text='+encodeURIComponent(text)+'&url='+encodeURIComponent(url);	
+				action = host+'/share?text='+encodeURIComponent(text)+'&url='+encodeURIComponent(url);
 				$('.mastodon').removeAttr('disabled');	
-			}		
+			}	
+			if(service == 'Reddit') {
+				action = host+'/submit?title='+encodeURIComponent(text)+'&url='+encodeURIComponent(url);
+				$('.Reddit').removeAttr('disabled');	
+			}	
 	  	}
 		
 		var left = Number((screen.width/2)-(w/2));
