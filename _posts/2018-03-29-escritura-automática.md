@@ -2,9 +2,11 @@
 title:  "escritura automática"
 layout: post
 date:   2018-03-30
-category: blog
+projects: true
+category: blog, project
 author: jartigag
 tag:
+- proyectos
 - web
 - javascript
 ---
