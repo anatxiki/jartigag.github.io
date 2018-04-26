@@ -34,7 +34,7 @@ permalink: /:title/
 # analytics-google: 'UA-MYANALYTICS'
 
 # To enable piwik tracking, supply your url & site ID below
-analytics-piwik-url: 'http:159.89.19.173/piwik/'
+analytics-piwik-url: 'http://159.89.19.173/piwik/'
 analytics-piwik-id: '1'
 
 # if you don't want comments in your posts, leave categories empty
