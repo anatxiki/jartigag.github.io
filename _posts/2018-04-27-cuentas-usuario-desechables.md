@@ -31,14 +31,14 @@ Para cuando te haga falta un correo permanente y no quieras dar el tuyo, puedes 
 ## Teléfonos temporales
 
 Antes estaba **FonYou**, un servicio de telefonía con el que podías registrar un nuevo número de teléfono y gestionar en su web las llamadas y SMS que recibía, o bien redirigirlas a tu teléfono.  
-Ahora existen webs del tipo [**receive-sms-online**](http://receive-sms-online.com/), que ofrecen números de uso público para registros online, pero se invalidan rápido (los usa mucha gente, además de que para cualquier servicio resulta fácil añadirlos a una blacklist y etarlos en su proceso de registro).
+Ahora existen webs del tipo [**receive-sms-online**](http://receive-sms-online.com/), que ofrecen números de uso público para registros online, pero se invalidan rápido (los usa mucha gente, además de que para cualquier servicio resulta fácil añadirlos a una blacklist y vetarlos en su proceso de registro).
 
 ## Facebook
 
 Para ver una página de Facebook completa, por ejemplo, o si quieres curiosear cómo es el funcionamiento del ahora mismo [tercer sitio más visitado del mundo](https://www.alexa.com/topsites) sin abrirte una cuenta personal.  
 Así de fácil es tener **un usuario nuevo en 10 segundos,** con un correo temporal:  
 ![]({{site.baseurl}}/assets/images/posts/fb_reg1.png)
-Si te dice que "Has introducido un correo electrónico no válido", sigue probando con otras direcciones (**temp-mail.org te permite cambiarla**) hasta que entre:
+Si te dice que "Has introducido un correo electrónico no válido", sigue probando con otras direcciones ([**temp-mail.org te permite cambiarla**](https://temp-mail.org/es/option/change/)) hasta que entre:
 ![]({{site.baseurl}}/assets/images/posts/fb_reg2.png)
 Recordatorio: **nunca reutilizar contraseñas**. Como estos usuarios son de usar y tirar, con que la contraseña cumpla los requisitos impuestos en el formulario nos vale (yo suelo usar la propia dirección de correo modificada como contraseña). Con cuentas más "duraderas" debemos ayudarnos de un gestor de contraseñas para guardar cada contraseña única, y crearlas con [un generador de contraseñas](https://jartigag.github.io/PassGen) o [un buen método](https://www.schneier.com/blog/archives/2014/03/choosing_secure_1.html).
 
