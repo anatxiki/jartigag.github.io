@@ -13,7 +13,7 @@ tag:
 
 Generador de contraseñas desarrollado para el proyecto dirigido de la asignatura "Servicios Web: Cliente".
 
-Disponible en [https://jartigag.github.io/PassGen](https://jartigag.github.io/PassGen)
+Disponible en [https://jartigag.github.io/PassGen](https://jartigag.github.io/PassGen)  
 
 ![screenshot de la cabecera de PassGen]({{site.baseurl}}/assets/images/posts/sc-passgen.png)
 
@@ -36,7 +36,7 @@ Cuando empecé a buscar [cómo había planteado otra gente este tipo de webs](ht
 
 Durante el desarrollo de este proyecto he aprendido algunas cosas en cada lenguaje.  
 En **HTML**, aparte del tema de `doctype`, `charset`, `viewport`, descubrí la etiqueta `<fieldset>`, que me pareció un elemento elegante, y `<progress>`, la etiqueta más razonable para usar en una barra de progreso, pero que viene [con sus peculiaridades para aplicarle estilo](https://css-tricks.com/html5-progress-element/).  
-Y es que en el **CSS** hubo que usar el selector `.redBar::-`[moz-progress-bar](https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-progress-bar)`{}` para que el color de la barra se mostrase correctamente en Firefox. También experimenté un poco con el [Flexbox](https://www.w3schools.com/csS/css3_flexbox.asp).  
+Y es que en el **CSS** hubo que usar el selector `.redBar::-[moz-progress-bar](https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-progress-bar){}` para que el color de la barra se mostrase correctamente en Firefox. También experimenté un poco con el [Flexbox](https://www.w3schools.com/csS/css3_flexbox.asp).  
 En **Javascript** empleé por primera vez el [operador ternario](https://es.wikipedia.org/wiki/Operador_ternario) porque lo vi en el [código de passwords.es](https://password.es/en/js/script.js) y me pareció que favorecía la claridad. También tiré del [DOM](https://www.w3schools.com/js/js_htmldom.asp) para alguna situación concreta (por ejemplo, con `.className` en vez de `.style.display`). Hasta ahora no he necesitado meterme con ninguna librería, ni siquiera JQuery.
 
 ## Memoria
@@ -46,7 +46,9 @@ Los bloques de código que se utilizan varias veces están refactorizados como f
 `resetAll`, `checkPassword`, `testPassword(passwd)`, `warning(m)` y `error(m)`.
 
 Para todos los elementos con id, clases, selectores, variables y funciones se han utilizado nombres cortos o abreviados, descriptivos y se ha seguido la regla de capitalización "[camelCase](https://es.wikipedia.org/wiki/CamelCase)". Los elementos más repetidos se guardaban con nombres abreviados, como  
-`strengthNum = document.getElementById('strength').children[1]; // strength.children[1] es un <span>`.  
+```
+strengthNum = document.getElementById('strength').children[1]; // strength.children[1] es un <span>
+```
 El código se ha simplificado al máximo, utilizando bucles cuando era posible o el operador ternario para favorecer la legibilidad:  
 ```
 chosenChars = mayus.checked) ? avalaibleChars[0] : '' equivale a

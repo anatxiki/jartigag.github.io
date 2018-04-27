@@ -11,7 +11,8 @@ tag:
 - javascript
 ---
 
-> simplemente, escribe sin parar → [https://jartigag.github.io/ea](https://jartigag.github.io/ea)
+> simplemente, escribe sin parar →  
+> [https://jartigag.github.io/ea](https://jartigag.github.io/ea)
 
 ## /índice:
 - [Qué es](#qué-es)

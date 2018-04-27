@@ -22,7 +22,7 @@ also interested in:
 
 **Web**  
 
-:    HTML, CSS, JavaScript, Jekyll, Bootstrap
+:    HTML, CSS, Javascript, Jekyll, Bootstrap
 
 **Others**  
 
@@ -33,4 +33,4 @@ Networking, Telecommunications, MySQL, Apache
 
 * [a simple network tool in python](https://jartigag.github.io/janitor-bot)
 * [some social media scripts](https://jartigag.github.io/cubiertos-para-twitter)
-* [an android app](#)
+* [an android app](https://github.com/jartigag/android-projects)
