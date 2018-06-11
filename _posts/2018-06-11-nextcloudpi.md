@@ -78,7 +78,7 @@ nextcloud
 daemon=3600
 ```
 
-La configuración con otros registradores de dominios (gratuitos o de pago) es similar.
+La configuración con otros registradores de dominios ([gra](https://ownyourbits.com/2017/03/05/dynamic-dns-for-raspbian-with-no-ip-org-installer/)-[tu](https://ownyourbits.com/2017/09/05/nextcloudpi-gets-freedns-better-automount-notifications-samba-and-web-improvements/)-[i](https://ownyourbits.com/2017/09/29/nextcloudpi-updated-to-nc-12-0-3-brings-wizard-duckdns-and-more/)-[tos](https://ownyourbits.com/2017/11/12/nextcloudpi-gets-new-look-and-feel-redis-spdns-support-berryboot-support-debian-installer-and-more/) o de pago) es similar.
 
 Si una vez propagados los cambios se puede acceder desde fuera de la LAN pero no a través de nuestro router doméstico, probablemente sea problema del NAT loopback. Para solucionarlo, tenemos que activar dnsmasq y ponernos **como servidor DNS la propia Raspberry**:  
 ```
@@ -86,4 +86,4 @@ Si una vez propagados los cambios se puede acceder desde fuera de la LAN pero no
 nameserver 192.168.1.XX # (IP de la RasPi)
 nameserver 8.8.8.8 # (Servidor DNS secundario)
 ```
-![]({{site.baseurl}}/assets/images/posts/nextcloud-jartigag.me)
+![]({{site.baseurl}}/assets/images/posts/nextcloud-jartigag.png)
