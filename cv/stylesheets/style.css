@@ -334,9 +334,6 @@ section {
 /* line 168, ../../stylesheets/style.scss */
 section > p {
   margin-top: 1.35294em;
-  width: 100%;
-  float: right;
-  margin-right: 0;
   text-align: justify;
 }
 /* line 176, ../../stylesheets/style.scss */
@@ -380,6 +377,13 @@ section:not(.listing) > dl > dt, section:not(.listing) > dl > dd, section.listin
   margin-top: 1.35294em;
 }
 /* line 213, ../../stylesheets/style.scss */
+@media (max-width:480px) {
+  section dt {
+    float: none;
+    word-break: keep-all;
+    padding: 2px;
+  }
+}
 section dt {
   width: 15.25424%;
   float: left;
