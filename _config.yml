@@ -23,7 +23,7 @@ compress_html:
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: files/cv.pdf
+resume-url: cv/cv.html
 
 url: https://jartigag.github.io
 # your url: http://USERNAME.github.io
