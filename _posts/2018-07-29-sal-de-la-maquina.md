@@ -1,7 +1,7 @@
 ---
 title:  "sal de la máquina"  
 layout: post  
-date:   2018-08-xx  
+date:   2018-07-29  
 category: blog  
 author: jartigag  
 tag:
