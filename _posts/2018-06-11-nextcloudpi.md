@@ -1,13 +1,15 @@
 ---
-title:  "cómo levanté nextcloud en mi raspberrypi"  
-layout: post  
-date:   2018-06-11  
+title:  "cómo levanté nextcloud en mi raspberrypi"
+layout: post
+date:   2018-06-11
+howto: true
 category: blog, howto
-author: jartigag  
+author: jartigag
 tag:
 - raspberrypi  
 - nextcloud  
 - dns
+- guías
 ---
 
 ![]({{site.baseurl}}/assets/images/posts/nextcloudpi.png)  
