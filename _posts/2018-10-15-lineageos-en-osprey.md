@@ -3,7 +3,7 @@ title:  "lineageOS en un moto G de 2015 (osprey)"
 layout: post
 date:   2018-10-15
 howto: true
-category: blog, howto
+category: blog
 author: jartigag
 tag:
 - android
