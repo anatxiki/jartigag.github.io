@@ -47,8 +47,11 @@ Tal y como se explica en la web, se puede [descargar NextcloudPi directamente](h
  `ssh pi@192.168.1.XX` (IP de la RasPi), con contraseña 'raspberry'
 
 6. Instalar NextcloudPi mediante el script '**install.sh**'  
-`wget https://raw.githubusercontent.com/nextcloud/nextcloudpi/master/install.sh`,  
-`sudo bash install.sh` [cuesta unos 20 minutos]
+```
+wget https://raw.githubusercontent.com/nextcloud/nextcloudpi/master/install.sh
+sudo bash install.sh
+```
+[cuesta unos 20 minutos]
 
 7. Configurar las **herramientas** que incluye NCP con `sudo ncp-config` ([Configuration Reference](https://github.com/nextcloud/nextcloudpi/wiki/Configuration-Reference))
 
