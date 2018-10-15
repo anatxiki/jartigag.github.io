@@ -13,10 +13,11 @@ tag:
 - guías
 ---
 
-Hace ya un par de semanas instalé un nuevo *sistema operativo Android* en mi antiguo móvil, un Moto G de 2015.  
-Se trata de **LineageOS**, la [ROM](https://en.wikipedia.org/wiki/List_of_custom_Android_distributions) que continúa el legado de la desaparecida [CyanogenMod](https://arstechnica.com/information-technology/2016/12/cyanogen-inc-shuts-down-cyanogenmod-in-christmas-bloodbath/)
+Hace ya un par de semanas instalé un nuevo *sistema operativo Android* en mi antiguo móvil, un Moto G de 2015. Se trata de **LineageOS**, la [ROM](https://en.wikipedia.org/wiki/List_of_custom_Android_distributions) que continúa el legado de la desaparecida [CyanogenMod](https://arstechnica.com/information-technology/2016/12/cyanogen-inc-shuts-down-cyanogenmod-in-christmas-bloodbath/)
 
+<p align="center">
 <iframe src="https://mastodon.social/@jartigag/100822707782160053/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400"></iframe><script src="https://mastodon.social/embed.js" async="async"></script>
+</p>
 
 ## /índice:
 
@@ -39,33 +40,33 @@ LineageOS permite además tener un **Android puro**, sin [*bloatware*](https://e
 
 Órdenes concretas que ejecuté para instalarlo desde GNU-Linux (se podría hacer desde Windows/Mac igualmente) en mi Moto G (en LineageOS este modelo se ha renombrado como **[osprey](https://wiki.lineageos.org/devices/osprey/)**). Seguí [esta guía](https://wiki.lineageos.org/devices/osprey/install).
 
-1.
+1-
 ```
 $ sudo apt install adb fastboot
 ```
 
-2. Habilitar la Depuración USB, Permitir desbloqueo OEM
+2- Habilitar la Depuración USB, Permitir desbloqueo OEM
 
-3.
+3-
 ```
 $ adb reboot bootloader
 ```
 
-4.
+4-
 ```
 $ fastboot devices
 ZY2227B25M fastboot
 ```
 
-5. 
+5- 
 ```
 $ fastboot oem device-info
 FAILED
 ```
 
-6. **[Unlock Your Bootloader](https://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-a)**
+6- **[Unlock Your Bootloader](https://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-a)**
 
-7.
+7-
 ```
 $ fastboot oem get_unlock_data
 ...
@@ -75,36 +76,36 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXX0000
 ```
 
-8. Pegar las últimas líneas en el campo de texto de la [página anterior](https://motorola-global-portal.custhelp.com/app/standalone%2Fbootloader%2Funlock-your-device-b) para comprobar si se puede desbloquear el dispositivo. Hacer click en "Request Unlock Key" para recibir por email el "Unlock Code".
+8- Pegar las últimas líneas en el campo de texto de la [página anterior](https://motorola-global-portal.custhelp.com/app/standalone%2Fbootloader%2Funlock-your-device-b) para comprobar si se puede desbloquear el dispositivo. Hacer click en "Request Unlock Key" para recibir por email el "Unlock Code".
 
-9.
+9-
 ```
 $ fastboot oem unlock UNLOCK_CODE
 ```
 
-10. Repetir el paso 2 de nuevo y reiniciar pulsando los botones <kbd>power</kbd>+<kbd>volume_down</kbd>
+10- Repetir el paso 2 de nuevo y reiniciar pulsando los botones <kbd>power</kbd>+<kbd>volume_down</kbd>
 
-11. Descargar **TWRP**: [twrp-x.x.x-x-osprey.img](https://dl.twrp.me/osprey/)
+11- Descargar **TWRP**: [twrp-x.x.x-x-osprey.img](https://dl.twrp.me/osprey/)
 
-12.
+12-
 ```
 $ fastboot flash recovery twrp-x.x.x-x-osprey.img
 ```
 
-13.
+13-
 ```
 $ fastboot reboot bootloader
 ```
 Si en la pantalla aparece "Sin comandos", pulsar los botones <kbd>power</kbd>+<kbd>volume_up</kbd>
 
-14. En TWRP, "Limpiar" > "Limpieza avanzada" y elegir las particiones a borrar
+14- En TWRP, "Limpiar" > "Limpieza avanzada" y elegir las particiones a borrar
 
-15. Encendido normal (con depuración USB activada), y
+15- Encendido normal (con depuración USB activada), y
 ```
 $ adb push lineage-xxxx.zip /
 ```
 
-16. Encendiendo con <kbd>power</kbd>+<kbd>volume_down</kbd> y luego eligiendo "Recovery Mode", **instalar LineageOS con TWRP**, mediante el .zip que se ha puesto en `/` (directorio raíz)
+16- Encendiendo con <kbd>power</kbd>+<kbd>volume_down</kbd> y luego eligiendo "Recovery Mode", **instalar LineageOS con TWRP**, mediante el .zip que se ha puesto en `/` (directorio raíz)
 
 ## Apps
 
@@ -112,7 +113,7 @@ Apps que venían con LineageOS: Archivos, AudioFX, Calculadora, Calendario, Cám
 
 Apps que instalé:
 
-- [Bitcoin](https://f-droid.org/es/packages/de.schildbach.wallet/): busqué una app simple para comprobar si es fácil pagar en bitcoins desde el móvil
+- [Bitcoin Wallet](https://f-droid.org/es/packages/de.schildbach.wallet/): busqué una app simple para comprobar si es fácil pagar en bitcoins desde el móvil
 - [Conversations](https://f-droid.org/es/packages/eu.siacs.conversations/): cliente XMPP
 - [F-Droid](https://f-droid.org/es/): repositorio de apps libres
 - [Haven](https://guardianproject.github.io/haven/): app lanzada por [Snowden](https://www.wired.com/story/snowden-haven-app-turns-phone-into-home-security-system/) como sistema de seguridad físico
@@ -127,7 +128,9 @@ Apps que instalé:
 - [Termux](https://f-droid.org/es/packages/com.termux/): terminal para móviles
 - [Yalp Store](https://f-droid.org/packages/com.github.yeriomin.yalpstore/): descarga APKs desde Google Play Store
 
+<p align="center">
 <iframe src="https://mastodon.social/@jartigag/100825920576932483/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400"></iframe><script src="https://mastodon.social/embed.js" async="async"></script>
+</p>
 
 Algunos juegos:
 
