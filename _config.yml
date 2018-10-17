@@ -25,7 +25,7 @@ resume: true
 resume-external: false
 resume-url: cv/
 
-url: https://jartigag.github.io
+url: https://jartigag.xyz
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -34,7 +34,7 @@ permalink: /:title/
 # analytics-google: 'UA-MYANALYTICS'
 
 # To enable piwik tracking, supply your url & site ID below
-analytics-piwik-url: 'https://piwik.jartigag.me/piwik/'
+analytics-piwik-url: 'https://piwik.jartigag.xyz/piwik/'
 analytics-piwik-id: '1'
 
 # if you don't want comments in your posts, leave categories empty
@@ -59,7 +59,7 @@ github: jartigag
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: jartigag@protonmail.com
+email: jartigag@pm.me
 
 authors:
     jartigag:
@@ -112,4 +112,4 @@ plugins:
   - jekyll-admin
 
 jekyll-mentions:
-    base_url: https://github.com
+    base_url: https://twitter.com
