@@ -14,7 +14,7 @@ also interested in:
 
 **Languages**  
 
-:    Java, Python, PHP
+:    Python, Java, PHP
 
 **Tools**  
 
@@ -26,11 +26,14 @@ also interested in:
 
 **Others**  
 
-:    GNU/Linux, RaspberryPi, Markdown, Pandoc, LaTeX,  
-Networking, Telecommunications, MySQL, Apache
+:	GNU/Linux, RaspberryPi,\
+	Elasticsearch, Kibana,\
+	Networking, Telecommunications\
+	Markdown, Pandoc, LaTeX,\
+	MySQL, Apache
 
 <h2>Projects</h2>
 
 * [a simple network tool in python](https://jartigag.github.io/janitor-bot)
 * [some social media scripts](https://jartigag.github.io/cubiertos-para-twitter)
-* [an android app](https://github.com/jartigag/android-projects)
+* [an android app (written in flutter)](https://github.com/TheyLendMe/app-theylendme)
