@@ -26,11 +26,7 @@ also interested in:
 
 **Others**  
 
-:	GNU/Linux, RaspberryPi,\
-	Elasticsearch, Kibana,\
-	Networking, Telecommunications\
-	Markdown, Pandoc, LaTeX,\
-	MySQL, Apache
+:	GNU/Linux, RaspberryPi, Elasticsearch, Kibana, Networking, Telecommunications, Markdown, Pandoc, LaTeX,	MySQL, Apache
 
 <h2>Projects</h2>
 
