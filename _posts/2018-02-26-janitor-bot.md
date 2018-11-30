@@ -21,7 +21,7 @@ De esta manera, tenemos un host en la red que está al corriente de **si un disp
 
 Además, permite asociar **recordatorios** a cada IP. El objetivo de esta función es recibir un mensaje de Telegram con el texto deseado cuando el dispositivo en cuestión *llegue a casa*.
 
-![](https://raw.githubusercontent.com/jartigag/janitor/master/janitor.png)
+![](https://raw.githubusercontent.com/jartigag/janitor/master/logo.png)
 
 > Janitor: un conserje 24h para tu red WiFi doméstica o la red de tu oficina.
 
