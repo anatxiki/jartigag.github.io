@@ -55,7 +55,7 @@ Aun con toda su trascendencia, nuestra compulsión en el uso de apps, así como 
 ### 5. La cara oculta de las apps: el Gran Hermano te vigila
 La **[espiral del silencio](https://es.wikipedia.org/wiki/Espiral_del_silencio)**: aquellos que aseguran apoyar o tolerar sin reparos acciones gubernamentales como el programa PRISM que reveló Snowden son precisamente los más reacios a expresar sus opiniones en internet si estas no coinciden con las de la mayoría<sup>[7](#under-surveillance)</sup>.  
 <p align="center">
-<a href="https://www.reddit.com/r/IAmA/comments/36ru89/just_days_left_to_kill_mass_surveillance_under/"><img src="https://scontent-mad1-1.cdninstagram.com/vp/447c390e1a7d9cc0249531a980499be5/5C10692B/t51.2885-15/e15/11327124_812182862202303_2054428287_n.jpg"></a>
+<a href="https://www.reddit.com/r/IAmA/comments/36ru89/just_days_left_to_kill_mass_surveillance_under/"><img src="{{site.baseurl}}/assets/images/posts/snowden-reddit.png"></a>
 </p>  
 
 "Argumentar que no te preocupa el **derecho a la privacidad** porque no tienes nada que ocultar viene a ser lo mismo que decir que no te preocupa la libertad de expresión porque no tienes nada que decir. *No puedes desestimar los derechos de los demás solo porque tú no los ejerzas*"<sup>[8](#snowden)</sup>.
