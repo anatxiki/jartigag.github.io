@@ -1,5 +1,5 @@
 ---
-title:  flutter: mi setup
+title:  "flutter: mi setup"
 layout: post
 date:   2019-01-20
 category: blog
