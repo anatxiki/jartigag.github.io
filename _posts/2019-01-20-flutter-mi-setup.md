@@ -44,8 +44,6 @@ $ unzip sdk-tools-linux-4333796.zip
 ```
 $ sudo mv tools/ /usr/lib/android-sdk/
 ```
-*************
-
 Podremos incluirlo en la variable de entorno $PATH añadiendo al final de nuestro `.bashrc` la siguiente línea:
 ```
 ## android ##
