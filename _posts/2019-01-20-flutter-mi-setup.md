@@ -14,8 +14,8 @@ tag:
 ## /índice:
 
 - [¿Flutter?](#flutter)
-- [Instalación minimalista](#instalacion-minimalista)
-- [Instalación fácil](#instalacion-facil)
+- [Instalación minimalista](#instalación-minimalista)
+- [Instalación fácil](#instalación-fácil)
 - [Hola Mundo](#hola-mundo)
 
 
