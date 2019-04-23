@@ -5,6 +5,8 @@ bio: almost telecom engineer, musician for a lifetime
 # twitter summary info
 description: almost telecom engineer, musician for a lifetime
 
+lang: es
+
 # if it's an external image, update below for true
 # better with square images
 external-image: false
@@ -96,7 +98,7 @@ show-tags: true
 related: true
 
 # Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
+post-advance-links: [blog project]
 
 # show author block at the end of a post ?
 show-author: true
