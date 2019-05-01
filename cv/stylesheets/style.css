@@ -164,13 +164,13 @@ em {
 /* line 24, ../../stylesheets/style.scss */
 h1 {
   font-size: 2em;
-  line-height: 0.74412em;
+  line-height: 1.35294em;
 }
 
 /* line 25, ../../stylesheets/style.scss */
 h2 {
   font-size: 1.5em;
-  line-height: 0.90196em;
+  line-height: 1.08235em;
 }
 
 /* line 26, ../../stylesheets/style.scss */
@@ -182,9 +182,8 @@ h3 {
 /* line 28, ../../stylesheets/style.scss */
 p, dt {
   -ms-word-break: break-all;
-  word-break: break-all;
   /* Non standard for webkit */
-  word-break: break-word;
+  word-break: keep-all;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
@@ -352,8 +351,8 @@ section > h2:before {
   display: inline-block;
   margin-right: 1.69492%;
   width: 13.55932%;
-  height: 0.30065em;
-  margin-bottom: 0.15033em;
+  height: 0.36078em;
+  margin-bottom: 0.18039em;
   background-color: #ffcc00;
 }
 /* line 191, ../../stylesheets/style.scss */
@@ -459,6 +458,7 @@ footer p {
   /* line 292, ../../stylesheets/style.scss */
   body {
     min-width: 58.35294em;
+    background: white;
   }
 
   /* line 294, ../../stylesheets/style.scss */
