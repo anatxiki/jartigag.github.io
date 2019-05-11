@@ -4,6 +4,7 @@ layout: post
 date:   2018-12-20
 category: blog
 author: jartigag
+image: /assets/images/posts/captive.png
 tag:
 - wifi
 - seguridad

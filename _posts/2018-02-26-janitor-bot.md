@@ -5,6 +5,7 @@ date:   2018-02-26
 projects: true
 category: blog, project
 author: jartigag
+image: https://raw.githubusercontent.com/jartigag/janitor/master/logo.png
 tag:
 - proyectos
 - telegram

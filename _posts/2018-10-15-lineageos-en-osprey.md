@@ -5,6 +5,7 @@ date:   2018-10-15
 howto: true
 category: blog
 author: jartigag
+image: https://files.mastodon.social/media_attachments/files/006/784/001/small/086038e675adce2f.png
 tag:
 - android
 - lineageos

@@ -3,7 +3,8 @@ title:  "sal de la máquina"
 layout: post  
 date:   2018-07-29  
 category: blog  
-author: jartigag  
+author: jartigag 
+image: /assets/images/posts/sal-de-la-maq.jpg
 tag:
 - libro
 - reflexiones

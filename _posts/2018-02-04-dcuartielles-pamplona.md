@@ -3,7 +3,8 @@ title:  "@dcuartielles en pamplona"
 layout: post  
 date:   2018-02-04  
 category: blog  
-author: jartigag  
+author: jartigag
+image: https://upload.wikimedia.org/wikipedia/commons/6/6c/Arduino316.jpg
 tag:
 - arduino  
 - charlas  

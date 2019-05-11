@@ -5,6 +5,7 @@ date:   2018-08-29
 projects: true  
 category: blog, project  
 author: jartigag  
+image: https://camo.githubusercontent.com/6c23f29a070d9dda33c9eb8a9bf56e751fca6edb/68747470733a2f2f61736369696e656d612e6f72672f612f3230303739352e706e67
 tag:
 - proyectos
 - python

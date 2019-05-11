@@ -4,6 +4,7 @@ layout: post
 date:   2018-01-09
 category: blog
 author: jartigag
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Android-System-Architecture.svg/675px-Android-System-Architecture.svg.png
 tag:
 - android
 ---

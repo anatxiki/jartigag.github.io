@@ -5,6 +5,7 @@ date:   2018-04-13
 projects: true
 category: blog, project
 author: jartigag
+image: /assets/images/posts/sc-passgen.png
 tag:
 - proyectos
 - web

@@ -5,6 +5,7 @@ date:   2018-03-30
 projects: true
 category: blog, project
 author: jartigag
+image: /assets/images/posts/ea.png
 tag:
 - proyectos
 - web

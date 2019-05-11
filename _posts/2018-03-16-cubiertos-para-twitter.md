@@ -5,6 +5,7 @@ date:   2018-03-16
 projects: true
 category: blog, project
 author: jartigag
+image: https://raw.githubusercontent.com/jartigag/cubiertos-para-twitter/master/logo.png
 tag:
 - proyectos
 - python

@@ -5,6 +5,7 @@ date:   2018-06-11
 howto: true
 category: blog
 author: jartigag
+image: /assets/images/posts/nextcloudpi.png
 tag:
 - raspberrypi  
 - nextcloud  

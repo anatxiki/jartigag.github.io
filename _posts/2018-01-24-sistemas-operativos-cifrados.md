@@ -5,6 +5,7 @@ date:   2018-01-24
 howto: true
 category: blog
 author: jartigag
+image: /assets/images/posts/SOs-cifrados.jpg
 tag:
 - linux
 - debian
