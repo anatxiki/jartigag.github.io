@@ -10,6 +10,8 @@ tag:
 - proyectos
 - web
 - javascript
+mastodonReplies: https://mastodon.social/@jartigag/99774875378103754
+twitterReplies: https://twitter.com/jartigag/status/1127526298753150976
 ---
 
 > simplemente, escribe sin parar →  

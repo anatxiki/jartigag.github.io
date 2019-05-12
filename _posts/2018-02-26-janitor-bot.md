@@ -11,6 +11,8 @@ tag:
 - telegram
 - python
 - redes
+mastodonReplies: https://mastodon.social/@jartigag/99598320158826842
+twitterReplies: https://twitter.com/jartigag/status/968833165082099712
 ---
 
 [Janitor](https://github.com/jartigag/janitor) es una **herramienta para LANs** escrita en Python y controlable tanto desde terminal como mediante un bot de Telegram.  

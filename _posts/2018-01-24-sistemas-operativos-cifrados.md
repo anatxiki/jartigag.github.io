@@ -11,6 +11,8 @@ tag:
 - debian
 - windows
 - guías
+mastodonReplies: https://mastodon.social/@jartigag/99410479217380972
+twitterReplies: https://twitter.com/jartigag/status/957251500744626182
 ---
 
 ## /índice:

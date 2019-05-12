@@ -5,13 +5,15 @@ date:   2018-10-15
 howto: true
 category: blog
 author: jartigag
-image: https://files.mastodon.social/media_attachments/files/006/784/001/small/086038e675adce2f.png
+image: /assets/images/posts/lineageos.png
 tag:
 - android
 - lineageos
 - software libre
 - google
 - guías
+mastodonReplies: https://mastodon.social/web/statuses/100901154081129525
+twitterReplies: https://twitter.com/jartigag/status/1051812573807595527
 ---
 
 Hace ya un par de semanas instalé un nuevo *sistema operativo Android* en mi antiguo móvil, un Moto G de 2015. Se trata de **LineageOS**, la [ROM](https://en.wikipedia.org/wiki/List_of_custom_Android_distributions) que continúa el legado de la desaparecida [CyanogenMod](https://arstechnica.com/information-technology/2016/12/cyanogen-inc-shuts-down-cyanogenmod-in-christmas-bloodbath/)

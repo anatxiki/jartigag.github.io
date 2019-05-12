@@ -1258,61 +1258,7 @@ pre {
   visibility: hidden;
 }
 .related {
-  margin: 10rem 0 0rem;
-}
-.share {
-  float: right;
-  width: 80%;
-  display: inline;
-  text-align: center;
-  position: relative;
-  top: -10px;
-  margin-bottom: 15px;
-}
-@media only screen and (max-width: 400px) {
-  .share {
-    width: 100%;
-    display: block;
-    top: 0;
-    float: none;
-    margin-top: 5px;
-  }
-}
-@media only screen and (min-width: 400px) and (max-width: 1050px) {
-  .share {
-    width: 100%;
-    display: block;
-    top: 0;
-    float: none;
-    margin-top: 5px;
-  }
-}
-.share > .social {
-  display: inline;
-  vertical-align: middle;
-  font-size: 13px;
-  font-weight: 700;
-  padding: 6px 10px;
-  border-radius: 3px;
-  margin-left: 5px;
-  text-decoration: none;
-}
-@media only screen and (max-width: 400px) {
-  .share > .social {
-    margin: 0 5px 10px 0;
-  }
-}
-@media only screen and (min-width: 400px) and (max-width: 1050px) {
-  .share > .social {
-    margin: 0 5px 10px 0;
-  }
-}
-.share svg {
-  position: relative;
-  top: 3px;
-  margin: 0;
-  margin-right: 4px;
-  display: inherit;
+  margin: 2rem 0 0rem;
 }
 @media only screen and (min-width: 780px) {
   .side-by-side {

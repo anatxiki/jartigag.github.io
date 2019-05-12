@@ -15,6 +15,8 @@ tag:
 - telegram
 - web
 - clojure
+mastodonReplies: https://mastodon.social/@jartigag/100633607352719912
+twitterReplies: https://twitter.com/jartigag/status/1034787195339657217
 ---
 
 Este verano me he dedicado en gran parte a escribir código. Principalmente he programado para el proyecto de Typosquatting que presentaré como mi TFG, pero también he tirado algunas líneas en forma de scripts (todos [publicados en mi Github](https://github.com/jartigag?tab=repositories)) que voy a comentar brevemente.

@@ -36,10 +36,22 @@ layout: page
     </div>
 {% endif %}
 
+{% include share.html %}
+
 {% if site.related %}
     {% include related.html %}
 {% endif %}
 
 {% if site.show-author %}
     {% include author.html %}
+{% endif %}
+
+{% if page.mastodonReplies or page.twitterReplies %}
+    <div style="text-align: center; padding-top: 1em">
+        <span>
+            View replies to this post on
+            {% if page.mastodonReplies %}<a href="{{ page.mastodonReplies }}"> [Mastodon]</a>{% endif %}
+            {% if page.twitterReplies %}<a href="{{ page.twitterReplies }}"> [Twitter]</a>{% endif %}
+        </span>
+    </div>
 {% endif %}

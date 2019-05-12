@@ -8,6 +8,8 @@ image: /assets/images/posts/sal-de-la-maq.jpg
 tag:
 - libro
 - reflexiones
+mastodonReplies: https://mastodon.social/@jartigag/100459838545578618
+twitterReplies: https://twitter.com/jartigag/status/1023681168779235334
 ---
 
 ![]({{site.baseurl}}/assets/images/posts/sal-de-la-maq.jpg)  

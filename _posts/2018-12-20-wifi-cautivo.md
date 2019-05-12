@@ -8,6 +8,8 @@ image: /assets/images/posts/captive.png
 tag:
 - wifi
 - seguridad
+mastodonReplies: https://mastodon.social/@jartigag/101274896570193224
+twitterReplies: https://twitter.com/jartigag/status/1076772123170037760
 ---
 
 Para el trabajo final de la asignatura de Seguridad, trasteamos un poco con redes Wi-Fi. *Y lo que descubrimos a continuación te sorprenderá.*  

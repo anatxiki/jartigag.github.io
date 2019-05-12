@@ -11,6 +11,8 @@ tag:
 - nextcloud  
 - dns
 - guías
+mastodonReplies: https://mastodon.social/@jartigag/100187688495099957
+twitterReplies: https://twitter.com/jartigag/status/1006529050003853319
 ---
 
 ![]({{site.baseurl}}/assets/images/posts/nextcloudpi.png)  

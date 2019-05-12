@@ -10,6 +10,7 @@ tag:
 - proyectos
 - web
 - javascript
+mastodonReplies: https://mastodon.social/@jartigag/99854172124441523
 ---
 
 Generador de contraseñas desarrollado para el proyecto dirigido de la asignatura "Servicios Web: Cliente".
