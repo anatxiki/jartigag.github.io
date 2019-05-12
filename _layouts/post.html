@@ -49,8 +49,8 @@ layout: page
 {% if page.mastodonReplies or page.twitterReplies %}
     <div style="text-align: center; padding-top: 1em">
         <span>
-            View replies to this post on
-            {% if page.mastodonReplies %}<a href="{{ page.mastodonReplies }}"> [Mastodon]</a>{% endif %}
+            View replies to this post on<br>
+            {% if page.mastodonReplies %}<a href="{{ page.mastodonReplies }}">[Mastodon]</a>{% endif %}
             {% if page.twitterReplies %}<a href="{{ page.twitterReplies }}"> [Twitter]</a>{% endif %}
         </span>
     </div>
