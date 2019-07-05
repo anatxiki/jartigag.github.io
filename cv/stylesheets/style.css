@@ -136,7 +136,7 @@ body {
   max-width: 59em;
   margin-left: auto;
   margin-right: auto;
-  padding: 2em;
+  padding: 1em;
 }
 /* line 12, ../../../../../../var/lib/gems/2.3.0/gems/susy-2.2.14/sass/susy/output/support/_clearfix.scss */
 body:after {
@@ -379,15 +379,15 @@ section:not(.listing) > dl > dt, section:not(.listing) > dl > dd, section.listin
 }
 /* line 212, ../../stylesheets/style.scss */
 section dt {
-  width: 15.25424%;
+  width: 25%;
   float: left;
-  margin-right: 1.69492%;
+  margin-right: 1.5%;
   text-align: right;
   clear: both;
 }
 /* line 218, ../../stylesheets/style.scss */
 section dd {
-  width: 83.05085%;
+  width: 72.5%;
   float: right;
   margin-right: 0;
 }
