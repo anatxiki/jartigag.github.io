@@ -16,7 +16,7 @@ twitterReplies: https://twitter.com/jartigag/status/1150076581605531648
 Hoy solo venía a dejar por aquí algunas reflexiones, nombres e hitos sobre [Git](https://git-scm.com/book/en/v2), el famoso software de control de versiones, y un par de las muchas cosas que le rodean.
 
 <p align="center">
-<img src="assets/images/posts/git.png">
+<img src="{{site.baseurl}}/assets/images/posts/git.png">
 </p>
 
 ## /índice:
