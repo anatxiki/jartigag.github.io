@@ -9,13 +9,15 @@ tag:
 - git
 - herramientas
 - reflexiones
-mastodonReplies: https://mastodon.social/@jartigag/XXXXX
-twitterReplies: https://twitter.com/jartigag/status/XXXXXXXX
+mastodonReplies: https://mastodon.social/@jartigag/102435028504431424
+twitterReplies: https://twitter.com/jartigag/status/1150076581605531648
 ---
 
 Hoy solo venía a dejar por aquí algunas reflexiones, nombres e hitos sobre [Git](https://git-scm.com/book/en/v2), el famoso software de control de versiones, y un par de las muchas cosas que le rodean.
 
-![]({{site.baseurl}}/assets/images/posts/git.png)
+<p align="center">
+<img src="assets/images/posts/git.png">
+</p>
 
 ## /índice:
 
