@@ -3,23 +3,27 @@ title: About
 layout: page
 ---
 
-enthusiastic about good-practice software development,  
-continuous multidisciplinary learning,  
-collaboration and simple but smart designs.
+enthusiastic about continuous multidisciplinary learning, analysis,  
+good-practice software development and simple but smart designs.
 
 also interested in:  
-[#freesoftware](#) [#infosec](#) [#osint](#) [#dataviz](#) [#music](#)
+[#dataviz](#) [#freesoftware](#) [#infosec](#) [#music](#)
+
+more on my [curriculum vitae](https://jartigag.xyz/cv) (in spanish)
 
 <h2>Skills</h2>
 
+**Analysis**
+
+:   Elasticsearch, Grafana, Kibana
+
 **Languages**  
 
-:    Python, Java, PHP
-:    Learning: Bash, Dart (focused on Flutter)
+:    Python, Java, PHP, Bash, AWK
 
 **Tools**  
 
-:    Git, AndroidStudio, Eclipse, Matlab
+:    Git, Eclipse, AndroidStudio, Matlab
 
 **Web**  
 
@@ -27,10 +31,10 @@ also interested in:
 
 **Others**  
 
-:   GNU/Linux, RaspberryPi, Elasticsearch, Kibana, Networking, Telecommunications, Markdown, Pandoc, LaTeX, MySQL, Apache
+:   GNU/Linux, RaspberryPi, Networking, Telecommunications, Markdown, LaTeX, MySQL, Apache
 
 <h2>Projects</h2>
 
-* [a simple network tool in python](https://jartigag.github.io/janitor-bot)
-* [some social media scripts](https://jartigag.github.io/cubiertos-para-twitter)
+* [a terminal time-tracker](https://github.com/jartigag/ttymetracker)
 * [an android app (written in flutter)](https://github.com/TheyLendMe/app-theylendme)
+* [some social media scripts](https://jartigag.xyz/cubiertos-para-twitter)
