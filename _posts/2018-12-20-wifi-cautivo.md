@@ -2,7 +2,8 @@
 title:  "WiFi cautivo"
 layout: post
 date:   2018-12-20
-category: blog
+projects: true
+category: blog, project
 author: jartigag
 image: /assets/images/posts/captive.png
 tag:

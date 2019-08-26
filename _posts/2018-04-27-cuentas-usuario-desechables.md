@@ -3,6 +3,7 @@ title:  "cuentas de usuario desechables"
 layout: post
 date:   2018-04-27
 category: blog
+howto: true
 author: jartigag
 image: /assets/images/posts/cuentas-desechables.jpg
 tag:
