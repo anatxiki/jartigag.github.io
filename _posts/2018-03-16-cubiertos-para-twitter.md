@@ -13,10 +13,15 @@ tag:
 twitterReplies: https://twitter.com/jartigag/status/974725622143569921
 ---
 
-He diseñado mi propia [*cubertería*](https://github.com/jartigag/cubiertos-para-twitter). Es un kit de 3 herramientas para **hacer que Twitter sea más fácil de _digerir_**.
+He diseñado mi propia [*cubertería*](https://github.com/jartigag/cubiertos-para-twitter). Es un kit de 3 herramientas para **hacer que Twitter sea
+más fácil de _digerir_**.
 
-La **analogía** con unos utensilios conocidos como son los **cubiertos** pretende sugerir de manera intuitiva para qué sirve cada una de estas herramientas y cuál es su finalidad general: ayudar al usuario, ya sea ofreciéndole **información** relevante o **automatizando algunas rutinas**.  
-Pero, tal y como ocurre con los cubiertos, deben **emplearse de forma auxiliar**. Es decir, estos scripts no realizan ninguna acción en nombre del usuario (ni publicar, ni seguir, ni RTs ni Likes) porque se quiere evitar que el perfil personal del usuario se convierta en una cuenta bot e impersonal. Tan sólo se hacen unfollows con `cuchillo.py` si el usuario así lo confirma, y la lista de Twitter sobre la que trabaja `cazo.py` es privada para que el usuario filtre de forma manual qué perfiles de los recogidos en ella le interesan.
+La **analogía** con unos utensilios conocidos como son los **cubiertos** pretende sugerir de manera intuitiva para qué sirve cada una de estas
+herramientas y cuál es su finalidad general: ayudar al usuario, ya sea ofreciéndole **información** relevante o **automatizando algunas rutinas**.
+Pero, tal y como ocurre con los cubiertos, deben **emplearse de forma auxiliar**. Es decir, estos scripts no realizan ninguna acción en nombre del
+usuario (ni publicar, ni seguir, ni RTs ni Likes) porque se quiere evitar que el perfil personal del usuario se convierta en una cuenta bot e
+impersonal. Tan sólo se hacen unfollows con `cuchillo.py` si el usuario así lo confirma, y la lista de Twitter sobre la que trabaja `cazo.py` es
+privada para que el usuario filtre de forma manual qué perfiles de los recogidos en ella le interesan.
 
 ![](https://raw.githubusercontent.com/jartigag/cubiertos-para-twitter/master/logo.png)
 
@@ -46,7 +51,11 @@ optional arguments:
   -t TWEETS, --tweets TWEETS
                         limit the number of tweets to retreive (default=500)
 ```
-<p align="center"><a href="https://asciinema.org/a/QTjDYRC4k4pp0ewyfLQlKTmfD" target="_blank"><img src="https://asciinema.org/a/QTjDYRC4k4pp0ewyfLQlKTmfD.png"/></a></p>
+<p align="center">
+  <a href="https://asciinema.org/a/QTjDYRC4k4pp0ewyfLQlKTmfD" target="_blank">
+    <img src="https://asciinema.org/a/QTjDYRC4k4pp0ewyfLQlKTmfD.png"/>
+  </a>
+</p>
 
 ## [cuchillo.py](https://github.com/jartigag/cubiertos-para-twitter/blob/master/cuchillo.py)
 > “Separar la carne del hueso”
@@ -79,7 +88,11 @@ optional arguments:
   -w USERNAME, --add_to_whitelist USERNAME
                         add USERNAME to whitelist
 ```
-<p align="center"><a href="https://asciinema.org/a/IQFOlDY4RMWFdtuHWK4Pz4k7k" target="_blank"><img src="https://asciinema.org/a/IQFOlDY4RMWFdtuHWK4Pz4k7k.png"/></a></p>
+<p align="center">
+  <a href="https://asciinema.org/a/IQFOlDY4RMWFdtuHWK4Pz4k7k" target="_blank">
+    <img src="https://asciinema.org/a/IQFOlDY4RMWFdtuHWK4Pz4k7k.png"/>
+  </a>
+</p>
 
 ## [cazo.py](https://github.com/jartigag/cubiertos-para-twitter/blob/master/cazo.py)
 > “Servir de la olla al plato”
@@ -108,4 +121,8 @@ optional arguments:
   -u USER, --user USER  target followers of user
 ```
 
-<p align="center"><a href="https://asciinema.org/a/U1UdjaSvK12VPI5OkYmRF8qm7" target="_blank"><img src="https://asciinema.org/a/U1UdjaSvK12VPI5OkYmRF8qm7.png"/></a></p>
+<p align="center">
+  <a href="https://asciinema.org/a/U1UdjaSvK12VPI5OkYmRF8qm7" target="_blank">
+    <img src="https://asciinema.org/a/U1UdjaSvK12VPI5OkYmRF8qm7.png"/>
+  </a>
+</p>
