@@ -118,5 +118,5 @@ Deseando leer vuestras opiniones sobre todo esto:)
 <a name="github-is-doing-much-better-than-bloomberg-thinks">1</a>: ["GitHub is Doing Much Better Than Bloomberg Thinks" (Moritz Plassnig,
 2016)](https://medium.com/@moritzplassnig/github-is-doing-much-better-than-bloomberg-thinks-here-is-why-a4580b249044)  
 <a name="linus-on-git">2</a>: ["Tech Talk: Linus Torvalds on git" (en las Oficinas de Google, 2007)](https://youtu.be/4XpnKHJAok8?t=625)  
-<a name="mailing-list-vs-github">3</a>: ["Mailing lists vs Github" (Joe "begriffs" Nelson,
+<a name="mailing-lists-vs-github">3</a>: ["Mailing lists vs Github" (Joe "begriffs" Nelson,
 2018)](https://begriffs.com/posts/2018-06-05-mailing-list-vs-github.html)
