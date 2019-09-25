@@ -29,8 +29,8 @@ informática de los 70-80 y el inicio de Internet.
 
 - [Arpanet](#arpanet)
 - [UNIX](#unix)
-- [TCP/IP](#tcp-ip)
-- [PC](#PC)
+- [TCP/IP](#tcpip)
+- [PC](#pc)
 
 ## ARPANET
 
