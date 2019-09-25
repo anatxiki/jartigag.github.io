@@ -18,9 +18,12 @@ Este verano leí el libro "El enemigo conoce el sistema", de Marta Peirano, y me
 capítulo "Infraestructuras", a partir del cual he seguido tirando del hilo hasta recoger en este post algunos de los hechos más interesantes sobre la
 informática de los 70-80 y el inicio de Internet.
 
-<p align="center">
-<img src="{{site.baseurl}}/assets/images/posts/inter-nets.png">
-</p>
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9hIQjrMHTv4" frameborder="0" allow="accelerometer; autoplay;
+  encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe>
+  <a href="http://www.lonja.de/the-history-of-the-internet/"><p>"The History of the Internet", Motiongraphics Documentary</p></a>
+</div>
 
 ## /índice:
 
@@ -47,11 +50,9 @@ A pesar de la expansión de la red, el presupuesto de DARPA estaba bajo mínimos
 la quiso. Si el Gobierno o la única operadora que podía comprarla hubieran entendido su verdadero potencial.. Otro pelo le hubiera corrido al
 Internet abierto y descentralizado que hemos conocido hoy.
 
-<div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9hIQjrMHTv4" frameborder="0" allow="accelerometer; autoplay;
-  encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-  </iframe>
-</div>
+<p align="center">
+<img src="{{site.baseurl}}/assets/images/posts/inter-nets.png">
+</p>
 
 Todas estas redes y sus responsables convergieron en la [International Computer Communications Conference](https://tools.ietf.org/html/rfc371) de
 /1972/. Allí se fraguó el [INWG](http://alexmckenzie.weebly.com/inwg-and-the-conception-of-the-internet-an-eyewitness-account.html), primer grupo de
