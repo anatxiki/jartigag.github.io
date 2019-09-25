@@ -10,8 +10,8 @@ tag:
 - internet
 - unix
 - redes
-mastodonReplies: https://mastodon.social/@jartigag/xxxxxxxxxxxxxxxxxx
-twitterReplies: https://twitter.com/jartigag/status/xxxxxxxxxxxxxxxxxxx
+mastodonReplies: https://mastodon.social/@jartigag/102854461876365102
+twitterReplies: https://twitter.com/jartigag/status/1176920595822456834
 ---
 
 Este verano leí el libro "El enemigo conoce el sistema", de Marta Peirano, y me gustó lo bien documentado que está. Disfruté especialmente el
@@ -65,7 +65,7 @@ otra para el editor y una más para el ensamblador. Tenía muchas, muchas ganas 
 Travel*](https://en.wikipedia.org/wiki/Space_Travel_(video_game)).
 
 Otros empleados del Bell Labs como Dennis Ritchie (también procedente del proyecto Multics), Brian Kernighan (la K de AWK) y Douglas McIlroy (autor
-de herramientas como el *pipeline*, `sort` o `diff`) se sumaron al desarrollo del sistema operativo. En /1979/ lanzaron una última versión antes de
+de herramientas como el *pipeline*, `sort` o `diff`) se sumaron al desarrollo del sistema operativo. En /1979/, lanzaron una última versión antes de
 que AT&T lo explotara comercialmente, la famosa V7.
 
 Para trabajar en su red, ARPA compró la licencia de Bell Labs, pero se quedó con la distribución de UNIX que un estudiante de Berkeley, Bill Joy,
