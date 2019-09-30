@@ -51,11 +51,11 @@ actividad tiene un ciclo de vida.
 
 Contiene información esencial sobre la aplicación, como configuración, permisos, Activities, Services, Providers, etc. En
 [AndroidManifest.xml](http://developer.android.com/guide/topics/manifest/manifest-intro.html), la Activity que se lanza al inicio tiene la categoría
-``android.intent.category.LAUNCHER``.
+`android.intent.category.LAUNCHER`.
 
 ## Layouts
 
-Ordenación y representación de elementos en un Activity. En formato XML. Se colocan en ``res > layout``. Algunos tipos:
+Ordenación y representación de elementos en un Activity. En formato XML. Se colocan en `res > layout`. Algunos tipos:
 * [FrameLayout](https://developer.android.com/reference/android/widget/FrameLayout.html)
 * [LinearLayout](https://developer.android.com/reference/android/widget/LinearLayout.html)
 * [RelativeLayout](https://developer.android.com/reference/android/widget/RelativeLayout.html)
@@ -71,30 +71,62 @@ Los elementos que componen un layout son **Widgets**. Por ejemplo:
 * ImageView
 * ProgressBar (spinner de "cargando..")
 
-Para identificarlos se usa el parámetro ``android:id`` en el template. Con ``@+id/nombre`` se crea, con ``@id/nombre`` se hace referencia a él.
+Para identificarlos se usa el parámetro `android:id` en el template. Con `@+id/nombre` se crea, con `@id/nombre` se hace referencia a él.
 
-Podemos trabajar con Widgets desde el Activity a través del id. Por ejemplo: ``` EditText editText = (EditText)findViewById(R.id.edit_text); ```
+Podemos trabajar con Widgets desde el Activity a través del id. Por ejemplo:
+```
+EditText editText = (EditText)findViewById(R.id.edit_text);
+```
 
-De la clase **R.java** se pueden recuperar widgets, pero también strings: ``` String text = getResources().getString(R.string.hello); ``` o asignar
-imágenes: ``` ImageView imageView = (ImageView)findViewById(R.id.image); imageView.setImageResource(R.drawable.background); ```
+De la clase **R.java** se pueden recuperar widgets, pero también strings:
+```
+String text = getResources().getString(R.string.hello);
+```
+o asignar imágenes:
+```
+ImageView imageView = (ImageView)findViewById(R.id.image);
+imageView.setImageResource(R.drawable.background);
+```
 
 ## Textos, traducciones
 
-Los textos se almacenan en ficheros XML, en ``res > values``. Cada traducción va en la carpeta values--XX (es, en, de...). Para referenciarlos usamos
-``@string/name``.
+Los textos se almacenan en ficheros XML, en `res > values`. Cada traducción va en la carpeta values--XX (es, en, de...). Para referenciarlos usamos
+`@string/name`.
 
 ## Events
 
-La interacción se basa en eventos. "Escucharemos" esos eventos para realizar acciones mediante **listeners**. Ejemplo:  ``` Button button =
-(Button)findViewById(R.id.my_button); button.setOnClickListener(new OpenSettingsClickListener()); ```
+La interacción se basa en eventos. "Escucharemos" esos eventos para realizar acciones mediante **listeners**. Ejemplo:
+```
+Button button = (Button)findViewById(R.id.my_button);
+button.setOnClickListener(new OpenSettingsClickListener());
+```
 
-Creamos un listener que implemente el interfaz adecuado en una clase propia y se la asociamos al Widget.  ``` public class OpenSettingsClickListener
-implements View.OnClickListener { @Override public void onClick(View view) { //TODO } } ```
+Creamos un listener que implemente el interfaz adecuado en una clase propia y se la asociamos al Widget.
+```
+public class OpenSettingsClickListener implements View.OnClickListener {
+  @Override
+  public void onClick(View view) {
+    //TODO
+  }
+}
+```
 
 ## Intent
 
-Permite cambiar de Activity. Puede imaginarse una pila de Activities, de forma que la nueva se abre sobre la anterior.  ``` Intent intent = new
-Intent(this, NextActivity.class); startActivity(intent); ``` Si cerramos la nueva actividad usando ``finish()``, volveremos a la inicial.
+Permite cambiar de Activity. Puede imaginarse una pila de Activities, de forma que la nueva se abre sobre la anterior.
+```
+Intent intent = new Intent(this, NextActivity.class);
+startActivity(intent);
+```
+Si cerramos la nueva actividad usando `finish()`, volveremos a la inicial.
 
-Podemos pasar parámetros (extras): ``` intent.putExtra("key", value); ``` Y recuperarlos en el destino: ``` Bundle bundle = getIntent().getExtras();
-String value = bundle.getString("key"); ``` Debemos de pasar la menor cantidad de datos posible.
+Podemos pasar parámetros (extras):
+```
+intent.putExtra("key", value);
+```
+Y recuperarlos en el destino:
+```
+Bundle bundle = getIntent().getExtras();
+String value = bundle.getString("key");
+```
+Debemos de pasar la menor cantidad de datos posible.

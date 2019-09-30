@@ -24,24 +24,42 @@ build.gradle de la app.
 
 Ejemplo de petición GET:
 
-``` import com.loopj.android.http.AsyncHttpClient;
+```
+import com.loopj.android.http.AsyncHttpClient;
 
-AsyncHttpClient client = new AsyncHttpClient(); client.addHeader("X-AUTH-TOKEN",settings.getString("token","")); client.get( activity,
-"https:/api.xxx.xx/v2/resource", new ResourceResponseHandler(activity)); ```
+AsyncHttpClient client = new AsyncHttpClient();
+client.addHeader("X-AUTH-TOKEN",settings.getString("token",""));
+client.get(
+	activity,
+	"https:/api.xxx.xx/v2/resource",
+	new ResourceResponseHandler(activity)
+	);
+```
 
 Y tratamiento de su respuesta:
 
-``` public class ResourceResponseHandler extends AsyncHttpResponseHandler {
+```
+public class ResourceResponseHandler extends AsyncHttpResponseHandler {
 
-  private Context context = null;
+	private Context context = null;
 
-  public ResourceResponseHandler (Context context) { this.context = context; }
+	public ResourceResponseHandler (Context context) {
+		this.context = context;
+	}
 
-  @Override public void onSuccess(int statusCode, Header[] header, byte[] bytes) { Gson gson = new Gson(); ResponseContent content = gson.fromJson
-  (new String(bytes), Response.class); Toast.makeTtext(this.context, content.getContent(), Toast.LENGTH.LONG).show(); }
+	@Override
+	public void onSuccess(int statusCode, Header[] header, byte[] bytes) {
+		Gson gson = new Gson();
+		ResponseContent content = gson.fromJson (new String(bytes), Response.class);
+		Toast.makeTtext(this.context, content.getContent(), Toast.LENGTH.LONG).show();
+	}
 
-  @Override public void onFailure(int statusCode, Header[] header, byte[] bytes, Throwable throwable) { Log.d("ResourceResponseHandler","Request
-  returned error " + statusCode); } } ```
+	@Override
+	public void onFailure(int statusCode, Header[] header, byte[] bytes, Throwable throwable) {
+		Log.d("ResourceResponseHandler","Request returned error " + statusCode);
+	}
+}
+```
 
 ## JSON
 
@@ -50,10 +68,23 @@ instala añadiendo `compile 'com.google.code.gson:gson:2.8.2'` al build.gradle d
 
 Ejemplo (como el anterior, pero con petición POST):
 
-``` Gson gson = new Gson();
+```
+Gson gson = new Gson();
 
-//Response: ObjectResponse objectResponse = gson.fromJson(new String(responseBody, ObjectResponse.class));
+//Response:
+ObjectResponse objectResponse = gson.fromJson(new String(responseBody, ObjectResponse.class));
 
-//Request: AsyncHttpClient client = new AsyncHttpClient(); try { client.post( activity, "https://api.xxx.xx/something", new
-StringEntity(gson.toJson(new ObjectRequest(params))), "application/json", new ResourceResponseHandler(activity)); } catch
-(UnsupportedEncodingException e) { e.printStackTrace(); } ```
+//Request:
+AsyncHttpClient client = new AsyncHttpClient();
+try {
+	client.post(
+		activity,
+		"https://api.xxx.xx/something",
+		new StringEntity(gson.toJson(new ObjectRequest(params))),
+		"application/json",
+		new ResourceResponseHandler(activity)
+	);
+} catch (UnsupportedEncodingException e) {
+	e.printStackTrace();
+}
+```
