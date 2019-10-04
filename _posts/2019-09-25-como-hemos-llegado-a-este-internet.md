@@ -11,6 +11,7 @@ tag:
 - unix
 - redes
 - linux
+- libro
 mastodonReplies: https://mastodon.social/@jartigag/102854461876365102
 twitterReplies: https://twitter.com/jartigag/status/1176920595822456834
 ---
