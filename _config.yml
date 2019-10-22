@@ -28,7 +28,8 @@ resume: true
 resume-external: false
 resume-url: cv/
 
-url: https://jartigag.xyz
+#url: https://jartigag.xyz
+url: https://jartigag.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
