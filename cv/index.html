@@ -39,12 +39,12 @@
     <header itemscope itemtype="http://http://schema.org/Person" class="with-photo">
         <div id="title" class="">
             <h1 class="fullname">
-        <span itemprop="givenName">Javier</span>
-        <span itemprop="familyName">Artiga Garijo</span>
-      </h1>
+                <span itemprop="givenName">Javier</span>
+                <span itemprop="familyName">Artiga Garijo</span>
+            </h1>
             <h2 class="title">Ingeniero de Telecomunicaciones</h2>
         </div>
-        <img src="images/profile.jpg" />
+        <img src="images/profile.jpg"/>
         <ul class="details">
             <li><a href="mailto:jartigag@pm.me">jartigag@pm.me</a></li>
             <li><a href="https://jartigag.xyz" itemprop="url" title="homepage">https://jartigag.xyz</a></li>
@@ -60,16 +60,24 @@
         <p>Este CV es público, algunos detalles han sido omitidos. Para obtener mis datos de contacto completos,<br />
             por favor escriba a <a href="mailto:jartigag@pm.me">jartigag@pm.me</a>. Gracias.</p>
     </section>
+    <section id="informations" class="level2 jumbotron">
+        <h2>Informations</h2>
+        <p>[<a href="cv.pdf" style="color: #4b0082">Descargar CV en .pdf</a>]</p>
+        <p>Este CV es público, algunos detalles han sido omitidos. Para obtener mis datos de contacto completos,<br />
+            por favor escriba a <a href="mailto:jartigag@pm.me">jartigag@pm.me</a>. Gracias.</p>
+    </section>
     <section id="perfil" class="level2">
         <h2>Perfil</h2>
-        <p>Graduado en Ingeniería en Tecnologías de Telecomunicación. Entusiasta del aprendizaje continuo y multidisciplinar, el análisis, el desarrollo de software con buenas prácticas y los diseños simples pero elegantes.<br />
+        <p>Graduado en Ingeniería de Telecomunicación. Entusiasta del aprendizaje continuo y multidisciplinar, el análisis, el desarrollo de software con buenas prácticas y los diseños simples pero elegantes.<br />
             También tengo interés por: visualización de datos, software libre, ciberseguridad y música.</p>
     </section>
     <section id="experiencia-laboral" class="level2">
         <h2>Experiencia laboral</h2>
         <dl>
             <dt>Ene2019-Ahora<br><a href="https://www.naudit.es"><img src="images/naudit.png" style="height: 55px; padding-top: 15px"/></a></dt>
-            <dd>Analista en <a href="https://www.naudit.es"><strong>Naudit</strong></a>
+            <dd>
+                <p>Analista de Red en <a href="https://www.naudit.es"><strong>Naudit HPCN</strong></a></p>
+                <p>Análisis de tráfico en grandes redes (investigación de incidencias, optimización). Desarrollo de procesados en tiempo real sobre altos volúmenes de logs. Diseño de dashboards para monitorizar datos de red, sistemas y negocio.</p>
             </dd>
             <dt>Jun-Sep2018<br><a href="https://www.elevenpaths.com"><img src="images/11p.png" style="height: 55px; padding-top: 15px"/></a></dt>
             <dd>
@@ -87,10 +95,6 @@
             <dd><strong>Grado</strong> en Ingeniería de Tecnologías de Telecomunicación<br />
                 <em>Universidad Pública de Navarra</em>, Pamplona<br />
                 <em>Mención en Telemática</em>
-            </dd>
-            <dt>2012-2014</dt>
-            <dd><strong>Grado</strong> en Ingeniería de Tecnologías y Servicios de Telecomunicación<br />
-                <em>Universidad de Zaragoza</em>, Zaragoza
             </dd>
         </dl>
     </section>
@@ -112,11 +116,10 @@
             <dd>Elasticsearch, Grafana, Kibana
             </dd>
             <dt><strong>Lenguajes</strong></dt>
-            <dd>Python, Java, PHP<br />
-                Aprendiendo: Bash, Dart (con Flutter), AWK
+            <dd>Python, Java, PHP, Bash, AWK
             </dd>
             <dt><strong>Herramientas</strong></dt>
-            <dd>Git, Eclipse, AndroidStudio, Matlab
+            <dd>Git, Docker, Eclipse, AndroidStudio, Matlab
             </dd>
             <dt><strong>Web</strong></dt>
             <dd>HTML, CSS, Javascript, Jekyll, Bootstrap
@@ -146,16 +149,12 @@
         <h2>Proyectos</h2>
         <dl>
             <dt><strong>Proyecto Fin de Estudios</strong></dt>
-            <dd><strong>Detección de dominios <em>typosquatting</em>:</strong><br />
-                Sistema de monitorización de dominios <em>typosquatting</em>,<br />
-                basado en recoger información con peticiones DNS, Whois y HTTP<br />
-                y almacenarla en un servidor de búsqueda Elasticsearch
+            <dd><strong>Detección de dominios <em>typosquatting</em>:</strong> Sistema de monitorización de dominios <em>typosquatting</em>, basado en recoger información con peticiones DNS, Whois y HTTP y almacenarla en un servidor de búsqueda Elasticsearch
             </dd>
             <dt><strong>Proyectos secundarios</strong></dt>
             <dd><a href="https://github.com/TheyLendMe/app-theylendme"><strong>TheyLendMe</strong></a>, app de préstamos entre personas y grupos<br />
                 <a href="https://jartigag.xyz/blog"><strong>Blog personal</strong></a>, de frecuencia mensual, con contenido conciso y principalmente técnico<br />
-                <a href="https://github.com/jartigag/cubiertos-para-twitter"><strong>Cubiertos</strong></a>, conjunto de herramientas para Twitter<br />
-                <a href="https://github.com/jartigag/ttymetracker"><strong>Ttymetracker</strong></a>, time-tracker de terminal
+                Otros muchos <a href="https://github.com/jartigag"><strong>repositorios propios en Github</strong></a>
             </dd>
         </dl>
     </section>
@@ -163,7 +162,10 @@
         <ul>
             <li><a href="https://twitter.com/jartigag">jartigag</a></li>
             <li><a href="https://github.com/jartigag">jartigag</a></li>
-            <li><a href="https://linkedin.com/in/javier-artiga-garijo">javier-artiga-garijo</a></li>
+            <li><a href="https://linkedin.com/in/javier-artiga-garijo">javier-artiga-garijo</a>
+              <br /><br />
+              Actualizado en noviembre de 2019
+            </li>
         </ul>
     </footer>
 </body>
