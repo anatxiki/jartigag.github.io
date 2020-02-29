@@ -41,8 +41,7 @@ capítulo "Infraestructuras", a partir del cual he seguido tirando del hilo hast
 informática de los 70-80 y el inicio de Internet.
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9hIQjrMHTv4" frameborder="0" allow="accelerometer; autoplay;
-  encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9hIQjrMHTv4" frameborder="0" allow="accelerometer; autoplay;encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
   </iframe>
   <a href="http://www.lonja.de/the-history-of-the-internet/"><p>"The History of the Internet", Motiongraphics Documentary</p></a>
 </div>

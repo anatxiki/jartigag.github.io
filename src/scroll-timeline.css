@@ -2,6 +2,11 @@
 
 /*TODO: horizontal timeline__nav if mobile (if narrow width in general) */
 
+@media screen and (max-width: 880px) {
+  .timeline__nav {
+    visibility: hidden;
+  }
+}
 .timeline__nav {
   position: fixed;
   left: 0;
