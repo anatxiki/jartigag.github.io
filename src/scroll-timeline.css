@@ -1,0 +1,36 @@
+/* original author: viktorjs (https://codepen.io/viktorjs/pen/KQZYjo) */
+
+/*TODO: horizontal timeline__nav if mobile (if narrow width in general) */
+
+.timeline__nav {
+  position: fixed;
+  left: 0;
+  z-index: 99;
+  -webkit-transition: top .3s ease-out;
+  transition: top .3s ease-out;
+}
+.timeline__nav ul {
+  list-style: none;
+  list-style-position: inside;
+  margin: 15px 50px;
+}
+.timeline__nav ul li {
+  margin: 15px 0;
+  padding-left: 0;
+  list-style-type: none;
+  color: #bbbbbb;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.timeline__nav ul li.active {
+  font-weight: bold;
+  color: #4b0082;
+  border-bottom: 1px dotted transparent;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.timeline__nav ul li:hover {
+  color: #000;
+}
