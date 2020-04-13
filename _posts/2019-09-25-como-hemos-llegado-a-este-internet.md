@@ -6,7 +6,6 @@ category: blog
 author: jartigag
 image: /assets/images/posts/inter-nets.png
 tag:
-- dataviz
 - internet
 - unix
 - redes

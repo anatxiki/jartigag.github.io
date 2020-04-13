@@ -7,6 +7,7 @@ author: jartigag
 image: /assets/images/posts/git.png
 tag:
 - git
+- software libre
 - herramientas
 - reflexiones
 mastodonReplies: https://mastodon.social/@jartigag/102435028504431424

@@ -11,6 +11,7 @@ tag:
 - nextcloud
 - dns
 - guías
+- software libre
 mastodonReplies: https://mastodon.social/@jartigag/100187688495099957
 twitterReplies: https://twitter.com/jartigag/status/1006529050003853319
 ---

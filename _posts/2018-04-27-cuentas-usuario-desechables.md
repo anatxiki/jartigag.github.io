@@ -11,7 +11,7 @@ tag:
 - instagram
 - linkedin
 - twitter
-- correo
+- email
 - teléfono
 mastodonReplies: https://mastodon.social/@jartigag/99932797400688696
 twitterReplies: https://twitter.com/jartigag/status/990201462369275910
