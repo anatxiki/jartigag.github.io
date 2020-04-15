@@ -12,8 +12,8 @@ tag:
 - linux
 - email
 - sysadmin
-mastodonReplies: https://mastodon.social/@jartigag/xxxxxxxxxxxxxxxxxx
-twitterReplies: https://twitter.com/jartigag/status/xxxxxxxxxxxxxxxxxxx
+mastodonReplies: https://mastodon.social/@jartigag/104002381896777739
+twitterReplies: https://twitter.com/jartigag/status/1250389045458370562
 ---
 
 Hace tiempo que pensaba escribir sobre lo que estoy aprendiendo de medir/monitorizar un sistema. Mi idea era relacionarlo con un montón de cosas,
