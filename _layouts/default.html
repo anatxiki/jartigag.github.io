@@ -14,7 +14,7 @@ layout: compress
     <meta name=author content="{{ site.name }}">
 
     {% seo %}
-    
+
     <!-- {% include favicon.html %} -->
 
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
@@ -22,11 +22,13 @@ layout: compress
 
     <!--link rel="stylesheet" media="all" href="{{ site.url }}{{ "/styles.min.css" }}"-->
     <link rel="stylesheet" media="all" href="{{ site.url }}{{ "/style.css" }}">
-    
+
     <!-- style>
     {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
     {{ scss_sheet | scssify }}
     </style -->
+
+    <script type="text/javascript" async="" src="{{site.baseurl}}/src/colorscheme-switcher.js"></script>
 
 </head>
 <body>
@@ -45,9 +47,9 @@ layout: compress
             {{ content }}
         </div>
     </div>
-    
+
     <!-- script src="{{ site.url }}{{ "/share.min.js" }}"></script -->
-                
+
     {% include analytics-piwik.html %}
 
     {% include icons.html %}
