@@ -33,7 +33,7 @@ function theme_change_requested(){
 
 function getCurrentColor(){
   // Color was set before in localStorage
-  var storage_color = localStorage.getItem("color");
+  var storage_color = localStorage.getItem("color"); //TODO: fix for chromium
   if(storage_color !== null){
     return storage_color;
   }
