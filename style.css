@@ -1130,7 +1130,7 @@ pre {
   margin: 0 auto;
   font-size: 13px;
   padding: 3px 10px;
-  background: var(--tx-color);
+  background: var(--bg-color);
   color: var(--tx-color);
   border-radius: 2px;
   height: 22px;
