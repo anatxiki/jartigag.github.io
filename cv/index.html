@@ -12,9 +12,13 @@
     }
     </style>
     <link rel="stylesheet" href="stylesheets/style.css">
+    <script type="text/javascript" async="" src="../src/colorscheme-switcher.js"></script>
 </head>
 
 <body>
+    <button name="switch" id="dark-light-switch" title="Toggle dark or light colorscheme" color="dark">
+    <svg id="moon" xmlns="http://www.w3.org/2000/svg" class="theme-icon" width="18" height="18" viewBox="0 0 1800 1800"><path d="M1463.034 1307.56c-36 6-73 9-110 9-371 0-672-301-672-672 0-127 37-251 104-357-266 79-456 323-456 613 0 353 287 640 640 640 193 0 374-88 494-233zm203-85c-125 271-399 446-697 446-423 0-768-345-768-768 0-415 325-752 739-767 28-1 51 15 61 39 11 25 4 54-15 72-114 104-177 246-177 400 0 300 244 544 544 544 79 0 155-17 228-51 25-11 53-6 72 13s24 48 13 72z"></path></svg>
+    </button>
     <div style="margin-top: 125px";>
         <nav class="nav">
            <ul class="list">
@@ -56,7 +60,7 @@
     </header>
     <section id="informations" class="level2 jumbotron">
         <h2>Informations</h2>
-        <p>[<a href="cv.pdf" style="color: #4b0082">Descargar CV en .pdf</a>]</p>
+        <p>[<a href="cv.pdf" style="color: var(--link-color)">Descargar CV en .pdf</a>]</p>
         <p>Este CV es público, algunos detalles han sido omitidos. Para obtener mis datos de contacto completos,<br />
             por favor escriba a <a href="mailto:jartigag@pm.me">jartigag@pm.me</a>. Gracias.</p>
     </section>
