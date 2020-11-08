@@ -9,8 +9,8 @@ tag:
 - notas
 - libro
 - machine learning
-mastodonReplies: https://mastodon.social/@jartigag/XXXXXXXXXXXXXXXXXX
-twitterReplies: https://twitter.com/jartigag/status/XXXXXXXXXXXXXXXXXXX
+mastodonReplies: https://mastodon.social/@jartigag/105174732236617291
+twitterReplies: https://twitter.com/jartigag/status/1325416277477892096
 ---
 
 Con esta entrada empiezo una nueva categoría de posts que voy a llamar "notas".
@@ -19,7 +19,7 @@ No son más que apuntes que he hecho mientras leía algún libro o veía alguna 
 En este caso, salen de un libro sobre ingeniería de aprendizaje automático, que es un tema al que le quería echar un ojo.
 Me picó la curiosidad después de haber desplegado mi [TFM sobre clustering](https://github.com/jartigag/tfm-clustering) en un entorno real
 como buenamente supe, poniendo el foco en evitar cualquier complicación que amenazara poder presentarlo en la defensa del trabajo.
-Una vez superado ese objetivo, encontré este libro, que se distribuye bajo el principio ["read-first, buy-later"](https://twitter.com/burkov/status/1324765117846851584),
+Una vez cerrada esa historia, encontré este libro, que se distribuye bajo el principio ["read-first, buy-later"](https://twitter.com/burkov/status/1324765117846851584),
 y quise saber cómo dicen que hay que hacer esto.
 
 Es un tema sobre el que me parece que no hay mucho publicado, por cierto.
