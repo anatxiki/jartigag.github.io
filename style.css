@@ -939,7 +939,7 @@ pre {
   top: 0;
 }
 .nav > .list {
-  padding: 0 13px 0;
+  padding: 0;
 }
 .nav > .list > .item > .link {
   font-size: 1.4rem;
