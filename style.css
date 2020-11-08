@@ -697,7 +697,7 @@ pre {
   padding: 3px 9px;
   border-radius: 3px;
   font-size: 1.3rem;
-  background: var(--link-color);
+  background: var(--border-color);
   color: var(--tx-color);
   letter-spacing: 1px;
   margin: 0 0.5rem 1rem;
