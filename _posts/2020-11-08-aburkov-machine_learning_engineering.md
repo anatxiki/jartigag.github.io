@@ -4,7 +4,7 @@ layout: post
 date:   2020-11-08
 notes: true
 author: jartigag
-image: /assets/images/posts/XXX.png
+image: /assets/images/posts/cover-aburkov-machine_learning_engineering.png
 tag:
 - notas
 - libro
@@ -32,6 +32,10 @@ revisarlos todos por encima y leer en detalle los que me interesaban más.
 Para quedarme con las ideas que exponía, escribí estas cuatro cosas, pero eso no quiere decir que sean las más importantes del libro.
 Ni siquiera que esté de acuerdo con ellas o que deban tomarse como referencia. Solo las comparto como la síntesis que saqué de aquí en el momento en el que lo leí.
 Si alguien más encuentra algo útil en ella, yo que me alegro :)
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/images/posts/cover-aburkov-machine_learning_engineering.png">
+</p>
 
 ## /índice:
 
