@@ -936,14 +936,14 @@ pre {
 .nav {
   position: absolute;
   right: 0;
-  top: 0;
+  top: 25px;
 }
 .nav > .list {
-  padding: 0;
+  top: 10px;
 }
 .nav > .list > .item > .link {
   font-size: 1.4rem;
-  padding: 20px 10px;
+  padding: 0 6px;
 }
 .nav-home {
   margin-top: 40px;
