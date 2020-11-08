@@ -3,7 +3,6 @@ title:  "SOs cifrados: debian 9 y windows 10"
 layout: post
 date:   2018-01-24
 howto: true
-category: blog
 author: jartigag
 image: /assets/images/posts/SOs-cifrados.jpg
 tag:

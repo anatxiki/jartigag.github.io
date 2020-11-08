@@ -2,7 +2,6 @@
 title:  "android: peticiones de red"
 layout: post
 date:   2018-01-15
-category: blog
 author: jartigag
 tag:
 - android

@@ -2,7 +2,6 @@
 title:  "monitorizando sistemas: 1. carga"
 layout: post
 date:   2020-04-14
-category: blog
 author: jartigag
 image: /assets/images/posts/sar.png
 tag:

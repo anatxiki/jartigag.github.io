@@ -451,7 +451,7 @@ pre {
   }
 }
 .wrapper-normal {
-  max-width: 620px;
+  max-width: 650px;
 }
 .wrapper-large {
   max-width: 810px;
@@ -485,16 +485,16 @@ pre {
     transform: translateY(0);
   }
 }
-.home, .blog, .projects, .howto {
+.home, .blog, .projects, .howto, .notes {
   margin-top: 125px;
 }
-.home > .list, .blog > .list, .projects > .list, .howto > .list {
+.home > .list, .blog > .list, .projects > .list, .howto > .list, .notes > .list {
   border-top: 1px solid var(--border-color);
   margin-top: 30px;
   padding-top: 40px;
   position: relative;
 }
-.home > .list:before, .blog > .list:before, .projects > .list:before, .howto > .list:before {
+.home > .list:before, .blog > .list:before, .projects > .list:before, .howto > .list:before, .notes > .list:before {
   display: block;
   content: " ";
   width: 7px;
@@ -508,27 +508,27 @@ pre {
   box-shadow: var(--bg-color) 0 0 0 5px;
   border-radius: 3px;
 }
-.home > .list > .item, .blog > .list > .item, .projects > .list > .item, .howto > .list > .item {
+.home > .list > .item, .blog > .list > .item, .projects > .list > .item, .howto > .list > .item, .notes > .list > .item {
   display: block;
   width: 95%;
   margin: 0 auto;
 }
-.home > .list > .item > .url, .blog > .list > .item > .url, .projects > .list > .item > .url , .howto > .list > .item > .url {
+.home > .list > .item > .url, .blog > .list > .item > .url, .projects > .list > .item > .url , .howto > .list > .item > .url, .notes > .list > .item > .url {
   width: 100%;
   display: block;
   padding: 20px 0;
   text-decoration: none;
 }
-.home > .list > .item > .url > .title, .blog > .list > .item > .url > .title, .projects > .list > .item > .url > .title, .howto > .list > .item > .url > .title {
+.home > .list > .item > .url > .title, .blog > .list > .item > .url > .title, .projects > .list > .item > .url > .title, .howto > .list > .item > .url > .title, .notes > .list > .item > .url > .title {
   margin: 0;
   width: 75%;
   font-weight: 500;
   transition: all ease-in-out 0.2s;
 }
-.home > .list > .item:hover > .url > .title, .blog > .list > .item:hover > .url > .title, .projects > .list > .item:hover > .url > .title, .howto > .list > .item:hover > .url > .title {
+.home > .list > .item:hover > .url > .title, .blog > .list > .item:hover > .url > .title, .projects > .list > .item:hover > .url > .title, .howto > .list > .item:hover > .url > .title, .notes > .list > .item:hover > .url > .title {
   color: var(--link-color);
 }
-.home > .list aside, .blog > .list aside, .projects > .list aside, .howto > .list aside {
+.home > .list aside, .blog > .list aside, .projects > .list aside, .howto > .list aside, .notes > .list aside {
   position: relative;
   top: 2px;
   margin: 0;
@@ -539,13 +539,13 @@ pre {
   text-align: right;
   transition: all ease-in-out 0.2s;
 }
-.home > .list .item:hover .url aside, .blog > .list .item:hover .url aside, .projects > .list .item:hover .url aside, .howto > .list .item:hover .url aside {
+.home > .list .item:hover .url aside, .blog > .list .item:hover .url aside, .projects > .list .item:hover .url aside, .howto > .list .item:hover .url aside, .notes > .list .item:hover .url aside {
   color: var(--tx-color);
 }
-.blog > .list > .item > .url > .title, .projects > .list > .item > .url > .title, .howto > .list > .item > .url > .title {
+.blog > .list > .item > .url > .title, .projects > .list > .item > .url > .title, .howto > .list > .item > .url > .title, .notes > .list > .item > .url > .title {
   display: inline;
 }
-.blog > .list > .item > .url > .emoji, .projects > .list > .item > .url > .emoji, .howto > .list > .item > .url > .emoji {
+.blog > .list > .item > .url > .emoji, .projects > .list > .item > .url > .emoji, .howto > .list > .item > .url > .emoji, .notes > .list > .item > .url > .emoji {
   display: inline;
   position: relative;
   top: -4px;

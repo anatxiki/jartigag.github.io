@@ -3,7 +3,6 @@ title:  "janitor bot"
 layout: post
 date:   2018-02-26
 projects: true
-category: blog, project
 author: jartigag
 image: https://raw.githubusercontent.com/jartigag/janitor/master/logo.png
 tag:

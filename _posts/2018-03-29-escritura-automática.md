@@ -3,7 +3,6 @@ title:  "escritura automática"
 layout: post
 date:   2018-03-30
 projects: true
-category: blog, project
 author: jartigag
 image: /assets/images/posts/ea.png
 tag:

@@ -2,7 +2,6 @@
 title:  "cómo hemos llegado a este internet"
 layout: post
 date:   2019-09-25
-category: blog
 author: jartigag
 image: /assets/images/posts/inter-nets.png
 tag:

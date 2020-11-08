@@ -2,7 +2,6 @@
 title:  "git no es github"
 layout: post
 date:   2019-07-13
-category: blog
 author: jartigag
 image: /assets/images/posts/git.png
 tag:

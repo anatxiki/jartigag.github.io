@@ -3,7 +3,6 @@ title:  "lineageOS en un moto G de 2015 (osprey)"
 layout: post
 date:   2018-10-15
 howto: true
-category: blog
 author: jartigag
 image: /assets/images/posts/lineageos.png
 tag:

@@ -3,7 +3,6 @@ title:  "cómo levanté nextcloud en mi raspberrypi"
 layout: post
 date:   2018-06-11
 howto: true
-category: blog
 author: jartigag
 image: /assets/images/posts/nextcloudpi.png
 tag:

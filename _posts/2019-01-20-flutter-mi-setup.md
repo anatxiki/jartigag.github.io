@@ -2,7 +2,6 @@
 title:  "flutter: mi setup"
 layout: post
 date:   2019-01-20
-category: blog
 howto: true
 author: jartigag
 image: /assets/images/posts/flutter-holamundo.png
