@@ -41,7 +41,7 @@ Nuestros contenidos mentales propios son reemplazados por **contenidos digitales
 En cualquier ciudad es fácil encontrar a visitantes y lugareños filmando una fuente pública con sus smartphones. ¿Cuántas veces visualizarán ese vídeo? Probablemente nunca, pero ya habrán dejado escapar la vivencia real del agua brotando a cambio de grabarla y archivarla mecánicamente. Estaríamos asumiendo que una reproducción digital es preferible y tiene más interés que el momento mismo presenciado por nuestros sentidos. **Damos así más valor al recuerdo que al hecho**.  
 <p align="center">
 <img src="https://images.pexels.com/photos/392747/pexels-photo-392747.jpeg?auto=compress&cs=tinysrgb&h=426&w=640">
-</p>  
+</p>
 
 Urge iniciar cuanto antes un proceso controlado de desconexión. En este contexto, rescatar y **actualizar la [respuesta ludista](https://es.wikipedia.org/wiki/Ludismo)** se nos presenta como una alternativa digna de consideración. No hablamos de destrozar los móviles a martillazos. Lo único que sugerimos es un proceso de desconexión voluntaria que puede adoptar muy diversos grados y formas al gusto del consumidor.
 Para quienes descarten esta visión como exageradamente pesimista, "más inquietante debiera parecerles el optimismo hegemónico de una realidad donde todos los indicios conducen al desastre y nadie hace hada por evitarlo"<sup>[3](#miguel-brieva)</sup>.

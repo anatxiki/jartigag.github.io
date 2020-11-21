@@ -13,7 +13,9 @@ mastodonReplies: https://mastodon.social/@jartigag/99467294184328640
 twitterReplies: https://twitter.com/jartigag/status/960142653953396736
 ---
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/06/Arduino_team_Arduino_Summit_2008.jpg)
+<p align="center">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Arduino_team_Arduino_Summit_2008.jpg">
+</p>
 
 > David Cuartielles (centro de la foto):  
 > - co-fundador de Arduino (2005),  
