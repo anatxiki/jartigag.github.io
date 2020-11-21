@@ -1,17 +1,21 @@
 ---
-title:  "@dcuartielles en pamplona"  
-layout: post  
-date:   2018-02-04  
+title:  "@dcuartielles en pamplona"
+layout: post
+date:   2018-02-04
+notes: true
 author: jartigag
 image: https://upload.wikimedia.org/wikipedia/commons/6/6c/Arduino316.jpg
 tag:
+- notas
+- charla
 - arduino
-- charlas
 mastodonReplies: https://mastodon.social/@jartigag/99467294184328640
 twitterReplies: https://twitter.com/jartigag/status/960142653953396736
 ---
 
-> ![](https://upload.wikimedia.org/wikipedia/commons/0/06/Arduino_team_Arduino_Summit_2008.jpg)  David Cuartielles (centro de la foto):  
+![](https://upload.wikimedia.org/wikipedia/commons/0/06/Arduino_team_Arduino_Summit_2008.jpg)
+
+> David Cuartielles (centro de la foto):  
 > - co-fundador de Arduino (2005),  
 > - profesor en Universidad de Malmö, Suecia (2000),  
 > - ingeniero de teleco por Universidad de Zaragoza (1998)
@@ -110,7 +114,7 @@ Uno** con comunicación serie y se fueron de copas. Fue la última vez que David
   - 2013: **Conectar electrodomésticos a Internet**. Encendieron una cafetera en Malmö desde Bruselas, en referencia a la [primera webcam de
     Internet](https://youtu.be/a4PX8vksBFU), instalada para controlar cuándo estaba listo el café. De aquí salió [Arduino
     Yún](https://blog.arduino.cc/2013/05/18/welcome-arduino-yun-the-first-member-of-a-series-of-wifi-products-combining-arduino-with-linux/), primera
-    placa con Linux y videocontrolador. 
+    placa con Linux y videocontrolador.
 
   - 2016: [ESLOV](https://blog.arduino.cc/2016/09/28/eslov-is-the-amazing-new-iot-invention-kit-from-arduino/), **módulos** conectables por i2c.
 

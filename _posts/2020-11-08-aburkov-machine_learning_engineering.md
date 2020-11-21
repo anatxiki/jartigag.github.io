@@ -1,5 +1,5 @@
 ---
-title:  "📖 machine learning engineering"
+title:  "machine learning engineering"
 layout: post
 date:   2020-11-08
 notes: true
@@ -41,7 +41,7 @@ Si alguien más encuentra algo útil en ella, yo que me alegro :)
 
 <!-- vim-markdown-toc GFM -->
 
-* [📖 Machine Learning Engineering](#-machine-learning-engineering)
+* [Machine Learning Engineering](#machine-learning-engineering)
     * [Cuándo usar aprendizaje automático](#cuándo-usar-aprendizaje-automático)
     * [Cuándo no utilizar aprendizaje automático](#cuándo-no-utilizar-aprendizaje-automático)
     * [El ciclo de vida de un proyecto de aprendizaje automático](#el-ciclo-de-vida-de-un-proyecto-de-aprendizaje-automático)
@@ -59,7 +59,7 @@ Si alguien más encuentra algo útil en ella, yo que me alegro :)
 
 <!-- vim-markdown-toc -->
 
-# 📖 [Machine Learning Engineering](http://www.mlebook.com/wiki/doku.php)
+# [Machine Learning Engineering](http://www.mlebook.com/wiki/doku.php)
 
 [A. Burkov](https://ca.linkedin.com/in/andriyburkov) (Director de Data Science y Machine Learning Team Leader en Gartner)
 

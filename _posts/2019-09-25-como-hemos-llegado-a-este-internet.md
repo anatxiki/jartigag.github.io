@@ -2,14 +2,16 @@
 title:  "cómo hemos llegado a este internet"
 layout: post
 date:   2019-09-25
+notes: true
 author: jartigag
 image: /assets/images/posts/inter-nets.png
 tag:
+- notas
+- libro
 - internet
 - unix
 - redes
 - linux
-- libro
 mastodonReplies: https://mastodon.social/@jartigag/102854461876365102
 twitterReplies: https://twitter.com/jartigag/status/1176920595822456834
 ---

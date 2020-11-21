@@ -1,17 +1,20 @@
 ---
-title:  "sal de la máquina"  
-layout: post  
-date:   2018-07-29  
-author: jartigag 
+title:  "sal de la máquina"
+layout: post
+date:   2018-07-29
+notes: true
+author: jartigag
 image: /assets/images/posts/sal-de-la-maq.jpg
 tag:
+- notas
 - libro
 - reflexiones
 mastodonReplies: https://mastodon.social/@jartigag/100459838545578618
 twitterReplies: https://twitter.com/jartigag/status/1023681168779235334
 ---
 
-![]({{site.baseurl}}/assets/images/posts/sal-de-la-maq.jpg)  
+![]({{site.baseurl}}/assets/images/posts/sal-de-la-maq.jpg)
+
 > "Sal de la Máquina" (marzo-2017), de Sergio Legaz: "librero de Barcelona, ex-adicto a la Máquina y observador de la realidad"
 
 ## /índice:
