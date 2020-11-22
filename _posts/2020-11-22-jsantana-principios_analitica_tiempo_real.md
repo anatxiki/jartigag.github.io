@@ -54,7 +54,7 @@ Pero hay otros aspectos más allá de la query que también influyen, y a ellos 
 
 Diferentes problemas (diferentes datos) requieren diferente soluciones.
 
-**Bases de datos**: sistema de ficheros que los gestiona por nosotros de la forma más óptima.
+**Base de datos**: sistema de ficheros que los gestiona por nosotros de la forma más óptima.
 
 ¿Cuál es la base de datos adecuada para cada trabajo?
 - Pequeña app con modelo relacional -> SQLite puede ser la opción adecuada
@@ -127,7 +127,7 @@ Cómo funciona la paralelización en las bases de datos analíticas, a distintos
 * Ordenación de los datos en función de su acceso: antes de consumirlos y a la hora de consumirlos
 * Paralelización entre varias máquinas
 * Paralelizarión entre varios cores
-* Vectorización, usando extensiones SSE (Streaming SIMD (Single Instruction Multiple Data) Extensions) que tiene en los pocesadores para procesar más de un valor a la vez
+* Vectorización, usando extensiones SSE (Streaming SIMD (Single Instruction Multiple Data) Extensions) que tiene en los procesadores para procesar más de un valor a la vez
 
 > "La query más rápida es la que no procesa datos  
 > (solo los que necesitas)"
