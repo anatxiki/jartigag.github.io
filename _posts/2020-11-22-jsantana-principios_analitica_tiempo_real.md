@@ -10,8 +10,8 @@ tag:
 - charla
 - análisis
 - bases de datos
-mastodonReplies: https://mastodon.social/@jartigag/XXXXXXXXXXXXXXXXXX
-twitterReplies: https://twitter.com/jartigag/status/XXXXXXXXXXXXXXXXXXX
+mastodonReplies: https://mastodon.social/@jartigag/105253363811680170
+twitterReplies: https://twitter.com/jartigag/status/1330452033242075136
 ---
 <p align="center">
 <img src="{{site.baseurl}}/assets/images/posts/hummingbird-levi-jones-grRhpfQbBZI-unsplash.jpg">
