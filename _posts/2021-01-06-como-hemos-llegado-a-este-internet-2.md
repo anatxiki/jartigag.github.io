@@ -4,7 +4,7 @@ layout: post
 date:   2021-01-06
 notes: true
 author: jartigag
-image: /assets/images/posts/inter-nets.png
+image: https://upload.wikimedia.org/wikipedia/commons/4/41/NSFNET-traffic-visualization-1991.jpg
 tag:
 - notas
 - internet
