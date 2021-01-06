@@ -12,8 +12,8 @@ tag:
 - unix
 - iphone
 - android
-mastodonReplies: https://mastodon.social/@jartigag/XXXXXXXXXXXXXXXXXX
-twitterReplies: https://twitter.com/jartigag/status/XXXXXXXXXXXXXXXXXXX
+mastodonReplies: https://mastodon.social/@jartigag/105509401297643697
+twitterReplies: https://twitter.com/jartigag/status/1346835854208212993
 ---
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
