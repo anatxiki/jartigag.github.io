@@ -11,3 +11,5 @@ tag:
 - python
 - análisis
 ---
+
+[{{site.baseurl}}/football-entropy]({{site.baseurl}}/football-entropy) [MkDocs]
