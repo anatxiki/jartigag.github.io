@@ -8,8 +8,8 @@ tag:
 - sysadmin
 - herramientas
 - git
-mastodonReplies: https://mastodon.social/@jartigag/xxxxxxxxxxxxxxxxxx
-twitterReplies: https://twitter.com/jartigag/status/xxxxxxxxxxxxxxxxxxx
+mastodonReplies: https://mastodon.social/@jartigag/106133612058001686
+twitterReplies: https://twitter.com/jartigag/status/1386735108376379398
 ---
 
 Este post llevaba en el cajón un tiempo, ya casi lo había tirado a la papelera.
@@ -111,7 +111,8 @@ ahí pruebo que la copia de seguridad realmente cumple su función).
 Para los archivos de trabajo, que graban lo que hago la mayor parte de mi tiempo, considero que debería respaldarlos
 todo lo razonablemente posible, porque no me gustaría perder el resultado de horas y horas de esfuerzo.
 Tengo un directorio que guarda algunas configuraciones, listas, registros y "works-in-progress" que podría decir que son críticos,
-ya que seguramente no sabría recrearlos si perdiera las copias. Estos ficheros se respaldan automáticamente mientras voy trabajando, con este script en crontab:
+ya que seguramente no sabría recrearlos si perdiera las copias. Estos ficheros se respaldan automáticamente cuando ya no estoy trabajando,
+con este script en crontab:
 
 ```
 $ cat b/bak.sh
