@@ -367,7 +367,7 @@ p {
   }
 }
 strong {
-  font-weight: 900;
+  font-weight: 800;
   color: var(--strong-color);
 }
 ul li, ol li {
