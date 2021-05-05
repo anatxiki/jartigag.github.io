@@ -10,6 +10,8 @@ tag:
 - proyectos
 - python
 - análisis
+mastodonReplies: https://mastodon.social/@jartigag/105690839367983097
+twitterReplies: https://twitter.com/jartigag/status/1358416998313689088
 ---
 
 [{{site.baseurl}}/football-entropy]({{site.baseurl}}/football-entropy) [MkDocs]

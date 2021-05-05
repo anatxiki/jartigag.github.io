@@ -12,6 +12,8 @@ tag:
 - redes
 - machine learning
 - análisis
+mastodonReplies: https://mastodon.social/@jartigag/104562422256860328
+twitterReplies: https://twitter.com/jartigag/status/1287025668514107399
 ---
 
 [{{site.baseurl}}/tfm-clustering]({{site.baseurl}}/tfm-clustering) [MkDocs]
