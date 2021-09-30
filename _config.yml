@@ -84,6 +84,7 @@ width: normal
 
 # if you don't need projects, comment the *projects* configs below
 projects: true
+ctfs: true
 howto: true
 notes: true
 
@@ -115,6 +116,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-admin
+  - jekyll-redirect-from
 
 jekyll-mentions:
     base_url: https://twitter.com

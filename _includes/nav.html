@@ -26,6 +26,14 @@
             {% endif %}
         {% endif %}
 
+        {% if site.ctfs == true %}
+            {% if page.title != "CTFs" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/ctfs">CTFs</a>
+                </li>
+            {% endif %}
+        {% endif %}
+
         {% if site.howto == true %}
             {% if page.title != "HowTo" %}
                 <li class="item">
