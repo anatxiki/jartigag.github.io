@@ -9,8 +9,8 @@ author: jartigag
 image: https://scavengersecurity.com/posts/csaw-gottadecryptthemall/upload_c01fd065e4c94aa14993e6841cf70b7e.png
 tag:
 - ctf
-- crypto
-- cybersec
+- criptografía
+- seguridad
 mastodonReplies: https://mastodon.social/@jartigag/107027934320891523
 twitterReplies: https://twitter.com/jartigag/status/1443579786069098497
 ---

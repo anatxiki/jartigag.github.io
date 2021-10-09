@@ -10,6 +10,7 @@ tag:
 - python
 - twitter
 - bitcoin
+- criptografía
 - linkedin
 - telegram
 - web
