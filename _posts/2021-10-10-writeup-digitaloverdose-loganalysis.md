@@ -21,7 +21,7 @@ twitterReplies: https://twitter.com/jartigag/status/1447522555275927552
 original writeup metadata:
 ---
 title: Log Analysis
-event: DigitalOverdose RACTF
+event: DigitalOverdoseCTF 2021
 date: 2021-10-09
 discipline: log analysis
 difficulty:
