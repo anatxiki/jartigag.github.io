@@ -11,8 +11,8 @@ tag:
 - análisis
 - cybersec
 - windos
-mastodonReplies: https://mastodon.social/@jartigag/XXXXXXXXXXXXXXXXXX
-twitterReplies: https://twitter.com/jartigag/status/XXXXXXXXXXXXXXXXXXX
+mastodonReplies: https://mastodon.social/@jartigag/107079704581201058
+twitterReplies: https://twitter.com/jartigag/status/1447522555275927552
 ---
 
 [https://scavengersecurity.com/posts/digitaloverdose-loganalysis/](https://scavengersecurity.com/posts/digitaloverdose-loganalysis/)
