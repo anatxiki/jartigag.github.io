@@ -1,12 +1,59 @@
 <button name="switch" id="dark-light-switch" title="Toggle dark or light colorscheme">
     </svg><svg id="moon" xmlns="http://www.w3.org/2000/svg" class="theme-icon" width="18" height="18" viewBox="0 0 1800 1800"><path d="M1463.034 1307.56c-36 6-73 9-110 9-371 0-672-301-672-672 0-127 37-251 104-357-266 79-456 323-456 613 0 353 287 640 640 640 193 0 374-88 494-233zm203-85c-125 271-399 446-697 446-423 0-768-345-768-768 0-415 325-752 739-767 28-1 51 15 61 39 11 25 4 54-15 72-114 104-177 246-177 400 0 300 244 544 544 544 79 0 155-17 228-51 25-11 53-6 72 13s24 48 13 72z"/></svg>
 </button>
+<script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function show_dropdown() {
+      document.getElementById("blog_dropdown").classList.toggle("show");
+    }
+
+    function close_dropdown(event) {
+      if (!event.target.matches('.dropdown-toggle')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) { return close_dropdown(event) };
+</script>
+<style>
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.show {display: block;}
+</style>
 <nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
     <ul class="list">
 
         {% if site.blog == true %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/blog">Blog</a>
+            <li class="item dropdown">
+                <a class="link dropdown-toggle" href="{{ site.url }}/blog" onmouseleave="close_dropdown(event)" onmouseenter="show_dropdown()">Blog</a>
+                <div id="blog_dropdown" class="dropdown-content">
+                    <a class="link" href="{{ site.url }}/projects">Projects</a>
+                    <a class="link" href="{{ site.url }}/ctfs">CTFs</a>
+                    <a class="link" href="{{ site.url }}/howto">HowTo</a>
+                    <a class="link" href="{{ site.url }}/notes">Notes</a>
+                    </div>
             </li>
         {% endif %}
 
